@@ -15,14 +15,21 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from views import test_page
+from views import show_image
+from django.conf import settings
+from django.conf.urls import patterns
 
-#from rest_framework import routers, serializers, viewsets
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^test/', test_page, name='test_page'),
+    url(r'^media/(?P<map_img>[\w|\W]+)/$', show_image, name='show_image'),
 
     #API
     url(r'^api/', include('RESTAPI.urls', namespace='MHGen API'))
 ]
+
+if settings.DEBUG:
+    urlpatterns += patterns('django.views.static',
+        (r'media/(?P<path>.*)', 'serve', {'document_root': settings.MEDIA_ROOT}),
+    )

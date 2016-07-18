@@ -11,4 +11,4 @@ class LocationSerializer(serializers.HyperlinkedModelSerializer):
 
         model = Location
 
-        fields = ['name', 'map_img']
+        fields = ['name', 'map_img', 'key']

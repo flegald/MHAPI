@@ -4,4 +4,8 @@
 /local
 /share
 
+MHAPI/static/admin/
+MHAPI/static/rest_framework
+MHAPI/testing/
+
 pip-selfcheck.json

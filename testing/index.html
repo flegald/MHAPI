@@ -1,0 +1,28 @@
+<DOCTYPE! html5>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<script>
+$.getJSON("http://localhost:8000/api/locations/",
+{
+format: "json"
+},
+function(data) {
+	console.log(data)
+	for (i=0;i<data.length;i++){
+		$('#group').append('<h1>' + data[i].name + '</h1>' + '<img src=' + data[i].map_img + '>')
+	}
+	
+
+})
+
+
+</script>
+<body>
+<div id='group'>
+
+</div>
+
+
+<script src='preview.js'></script>
+</body>

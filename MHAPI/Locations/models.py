@@ -9,3 +9,4 @@ class Location(models.Model):
 
     name = models.CharField(max_length=255)
     map_img = models.ImageField(upload_to='Images/Locations', default='01.png')
+    key = models.CharField(max_length=15, null=True, blank=True)

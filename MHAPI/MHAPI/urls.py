@@ -17,12 +17,12 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from views import test_page
 
-from rest_framework import routers, serializers, viewsets
+#from rest_framework import routers, serializers, viewsets
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^test/', test_page, name='test_page'),
 
-    #API URLS
+    #API
     url(r'^api/', include('RESTAPI.urls', namespace='MHGen API'))
 ]

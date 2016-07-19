@@ -8,5 +8,8 @@ urlpatterns = [
     url(r'^locations/(?P<name>[\w|\W]+)/$', views.LocationSingleView, name='location_single' ),
     url(r'^weapons/$', views.WeaponListView.as_view(), name='weapons'),
     url(r'^weaponsheavy/$', views.HeavyWeaponListView.as_view(), name='heavy weapons list'),
-    url(r'^weapons/(?P<name>[\w|\W]+)/$', views.WeaponSingleView, name='weapon_single')	
+    url(r'^weapons/(?P<name>[\w|\W]+)/$', views.WeaponSingleView, name='weapon single'),
+    url(r'^armor/$', views.ArmorListView.as_view(), name='armor'),
+    url(r'^armorheavy/$', views.ArmorListViewHeavy.as_view(), name='Heavy Armor List'),
+    url(r'^armor/(?P<name>[\w|\W]+)/$', views.ArmorSingleView, name='armor single')
 ]

@@ -47,3 +47,23 @@ class Weapon(models.Model):
     ammo = models.CharField(max_length=255, null=True, blank=True)
     special_ammo = models.CharField(max_length=255, null=True, blank=True)
     num_slots = models.CharField(max_length=255, null=True, blank=True)
+
+
+class Armor(models.Model):
+    """Armor Model Class."""
+
+    name = models.CharField(max_length=255, null=True, blank=True)
+    key = models.CharField(max_length=255, null=True, blank=True)
+    slot = models.CharField(max_length=255, null=True, blank=True)
+    rarity = models.CharField(max_length=255, null=True, blank=True)
+    defense = models.CharField(max_length=255, null=True, blank=True)
+    max_defense = models.CharField(max_length=255, null=True, blank=True)
+    fire_res = models.CharField(max_length=255, null=True, blank=True)
+    thunder_res = models.CharField(max_length=255, null=True, blank=True)
+    dragon_res = models.CharField(max_length=255, null=True, blank=True)
+    water_res = models.CharField(max_length=255, null=True, blank=True)
+    ice_res = models.CharField(max_length=255, null=True, blank=True)
+    gender = models.CharField(max_length=255, null=True, blank=True)
+    hunter_type = models.CharField(max_length=255, null=True, blank=True)
+    num_slots = models.CharField(max_length=255, null=True, blank=True)
+

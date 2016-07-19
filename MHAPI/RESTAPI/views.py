@@ -3,10 +3,10 @@ from rest_framework.decorators import api_view
 from rest_framework.generics import ListAPIView
 from rest_framework.response import Response
 
-from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy
+from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy
 
 from Locations.models import Location
-from Items.models import Weapon
+from Items.models import Weapon, Armor
 
 
 # Locations
@@ -88,3 +88,49 @@ def WeaponSingleView(request, *args, **kwargs):
                         'Special Ammo': to_show.special_ammo,
                         'Number of Slots': to_show.num_slots,
                     })
+
+# Armor
+
+
+class ArmorListView(ListAPIView):
+    """List Armor name, key, hunter_type and slot."""
+
+    queryset = Armor.objects.all()
+    serializer_class = ArmorSerializer
+
+    def list(self, request, *args, **kwargs):
+        """Return list."""
+        return super(ArmorListView, self).list(request, *args, **kwargs)
+
+
+class ArmorListViewHeavy(ListAPIView):
+    """List all Armor Data."""
+
+    queryset = Armor.objects.all()
+    serializer_class = ArmorSerializerHeavy
+
+    def list(self, request, *args, **kwargs):
+        """Return list."""
+        return super(ArmorListViewHeavy, self).list(request, *args, **kwargs)
+
+
+@api_view()
+def ArmorSingleView(request, *args, **kwargs):
+    """Display Armor Weapon Details."""
+
+    filter_by = kwargs['name']
+    to_show = Armor.objects.get(name=filter_by)
+    return Response({'Name': to_show.name,
+                    'Key': to_show.key,
+                    'Slot': to_show.slot,
+                    'Rarity': to_show.rarity,
+                    'Defense': to_show.defense,
+                    'Max Defense': to_show.max_defense,
+                    'Fire Res': to_show.fire_res,
+                    'Thunder Res': to_show.thunder_res,
+                    'Dragon Res': to_show.dragon_res,
+                    'Water Res': to_show.water_res,
+                    'Ice Res': to_show.ice_res,
+                    'Gender': to_show.gender,
+                    'Hunter Type': to_show.hunter_type,
+                    'Num Slots': to_show.num_slots})

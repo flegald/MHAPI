@@ -1,7 +1,7 @@
 """Serializers for MHAPI."""
 from rest_framework import serializers
 from Locations.models import Location
-from Items.models import Weapon
+from Items.models import Weapon, Armor
 
 
 class LocationSerializer(serializers.HyperlinkedModelSerializer):
@@ -40,3 +40,27 @@ class WeaponSerializerHeavy(serializers.HyperlinkedModelSerializer):
                     'charges', 'coating', 'recoil', 'reload_speed', 'rapid_fire',
                     'deviation', 'ammo', 'special_ammo', 'num_slots'
                     ]
+
+
+class ArmorSerializer(serializers.HyperlinkedModelSerializer):
+    """Armor Serializer."""
+
+    class Meta:
+        """Meta."""
+
+        model = Armor
+
+        fields = ['name', 'key', 'hunter_type', 'slot']
+
+
+class ArmorSerializerHeavy(serializers.HyperlinkedModelSerializer):
+    """All Armor Data."""
+
+    class Meta:
+        """Meta."""
+
+        model = Armor
+
+        fields = ['name', 'key', 'slot', 'rarity', 'defense', 'max_defense', 'fire_res',
+                    'thunder_res', 'dragon_res', 'water_res', 'ice_res',
+                    'gender', 'hunter_type', 'num_slots']

@@ -16,5 +16,17 @@ var categories = [
     title: 'Quests',
     icon: 'http://vignette4.wikia.nocookie.net/monsterhunter/images/5/58/ItemIcon058.png/revision/latest?cb=20100611140834',
   },
+  {
+    title: 'Locations',
+    icon: 'http://vignette2.wikia.nocookie.net/monsterhunter/images/c/c1/ItemIcon027.png/revision/latest?cb=20100611132403',
+  },
+  {
+    title: 'Monsters',
+    icon: 'http://vignette4.wikia.nocookie.net/monsterhunter/images/b/bb/Nargacuga_Icon.png/revision/latest?cb=20130218180905',
+  },
+  {
+    title: 'Skills',
+    icon: 'http://vignette2.wikia.nocookie.net/monsterhunter/images/6/6f/ItemIcon017.png/revision/latest?cb=20100611125606',
+  },
 
 ];

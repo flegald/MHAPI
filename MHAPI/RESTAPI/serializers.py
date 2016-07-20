@@ -80,6 +80,17 @@ class MonsterBuffSerializer(serializers.ModelSerializer):
 class MonsterSerializer(serializers.ModelSerializer):
     """Monster data."""
 
+    class Meta:
+        """Meta."""
+
+        model = Monster
+
+        fields = ['key', 'name']
+
+
+class MonsterSerializerSingle(serializers.ModelSerializer):
+    """Monster data."""
+
     weaknesses = MonsterBuffSerializer(many=True)
 
     class Meta:
@@ -88,3 +99,4 @@ class MonsterSerializer(serializers.ModelSerializer):
         model = Monster
 
         fields = ['key', 'name', 'mclass', 'base_hp', 'weaknesses']
+

@@ -1,0 +1,234 @@
+_id,monster_id,ailment
+1,1,Small Roar
+2,1,Large Wind Pressure
+3,1,Poison
+4,1,Fireblight
+5,513,Large Roar
+6,513,Large Wind Pressure
+7,513,Poison
+8,513,Fireblight
+9,1025,Large Roar
+10,1025,Large Wind Pressure
+11,1025,Poison
+12,1025,Noxious Poison
+13,1025,Deadly Poison
+14,1025,Fireblight
+15,2,Small Roar
+16,2,Large Wind Pressure
+17,2,Poison
+18,2,Fireblight
+19,514,Large Roar
+20,514,Large Wind Pressure
+21,514,Poison
+22,514,Stun
+23,514,Fireblight
+24,1026,Large Roar
+25,1026,Large Wind Pressure
+26,1026,Noxious Poison
+27,1026,Stun
+28,1026,Fireblight
+29,3,Large Roar
+30,3,Large Wind Pressure
+31,3,Paralysis
+32,3,Thunderblight
+33,8,Small Wind Pressure
+34,8,Fireblight
+35,9,Small Wind Pressure
+36,9,Poison
+37,9,Stun
+38,10,Small Wind Pressure
+39,10,Sleep
+40,10,Waterblight
+41,11,Paralysis
+42,11,Thunderblight
+43,15,Paralysis
+44,16,Poison
+45,17,Paralysis
+46,17,Iceblight
+47,18,Small Roar
+48,18,Small Wind Pressure
+49,18,Poison
+50,18,Fireblight
+51,1042,Small Special Roar
+52,1042,Small Wind Pressure
+53,1042,Large Wind Pressure
+54,1042,Poison
+55,1042,Noxious Poison
+56,1042,Deadly Poison
+57,1042,Fireblight
+58,19,Small Wind Pressure
+59,19,Iceblight
+60,1043,Large Wind Pressure
+61,1043,Tremor
+62,1043,Stun
+63,1043,Iceblight
+64,20,Bleeding
+65,20,Waterblight
+66,22,Small Roar
+67,22,Tremor
+68,22,Snowman
+69,22,Iceblight
+70,23,Small Roar
+71,23,Large Roar
+72,23,Tremor
+73,23,Thunderblight
+74,24,Small Roar
+75,24,Large Wind Pressure
+76,24,Dragon Wind Pressure
+77,24,Snowman
+78,24,Iceblight
+79,25,Large Wind Pressure
+80,25,Poison
+81,27,Small Roar
+82,27,Dragon Wind Pressure
+83,27,Blastblight
+84,27,Fireblight
+85,32,Special Roar
+86,32,Large Wind Pressure
+87,32,Environmental
+88,1056,Special Roar
+89,1056,Large Wind Pressure
+90,1056,Tremor
+91,1056,Environmental
+92,33,Special Roar
+93,33,Tremor
+94,33,Defense Down
+95,33,Fireblight
+96,33,Dragonblight
+97,36,Tremor
+98,36,Fireblight
+99,37,Small Roar
+100,37,Small Wind Pressure
+101,37,Large Wind Pressure
+102,1061,Small Roar
+103,1061,Small Wind Pressure
+104,1061,Large Wind Pressure
+105,1061,Bleeding
+106,38,Special Roar
+107,38,Tremor
+108,38,Snowman
+109,38,Iceblight
+110,43,Large Roar
+111,43,Tremor
+112,43,Defense Down
+113,43,Dragonblight
+114,43,Environmental
+115,1323,Large Roar
+116,1323,Tremor
+117,1323,Defense Down
+118,1323,Dragonblight
+119,1323,Environmental
+120,45,Small Roar
+121,45,Tremor
+122,45,Sleep
+123,45,Fireblight
+124,1069,Small Roar
+125,1069,Tremor
+126,1069,Sleep
+127,1069,Stun
+128,1069,Fireblight
+129,46,Small Roar
+130,46,Thunderblight
+131,47,Waterblight
+132,49,Small Roar
+133,49,Tremor
+134,49,Fireblight
+135,50,Large Roar
+136,50,Dragon Wind Pressure
+137,50,Tremor
+138,50,Snowman
+139,50,Fireblight
+140,50,Dragonblight
+141,50,Thunderblight
+142,50,Iceblight
+143,55,Large Roar
+144,55,Tremor
+145,55,Stun
+146,56,Waterblight
+147,57,Small Roar
+148,57,Large Wind Pressure
+149,57,Thunderblight
+150,1081,Small Roar
+151,1081,Large Roar
+152,1081,Stun
+153,1081,Thunderblight
+154,58,Small Roar
+155,58,Large Wind Pressure
+156,1084,Small Roar
+157,1084,Small Wind Pressure
+158,1084,Tremor
+159,61,Tremor
+160,61,Snowman
+161,61,Iceblight
+162,1085,Small Roar
+163,1085,Tremor
+164,1085,Snowman
+165,1085,Iceblight
+166,62,Tremor
+167,62,Paralysis
+168,62,Soiled
+169,63,Small Roar
+170,63,Blastblight
+171,65,Small Roar
+172,65,Tremor
+173,65,Iceblight
+174,66,Small Roar
+175,66,Tremor
+176,66,Environmental
+177,1090,Small Roar
+178,1090,Tremor
+179,1090,Environmental
+180,67,Large Roar
+181,67,Tremor
+182,67,Snowman
+183,67,Iceblight
+184,67,Waterblight
+185,68,Large Roar
+186,68,Paralysis
+187,68,Stun
+188,69,Tremor
+189,69,Soiled
+190,69,Waterblight
+191,71,Large Roar
+192,71,Small Wind Pressure
+193,71,Tremor
+194,71,Frenzy Virus
+195,72,Large Roar
+196,72,Tremor
+197,72,Frenzy Virus
+198,76,Defense Down
+199,77,Small Roar
+200,77,Large Wind Pressure
+201,77,Bleeding
+202,79,Small Roar
+203,79,Small Wind Pressure
+204,79,Confusion
+205,79,Sleep
+206,80,Small Roar
+207,80,Fireblight
+208,1104,Large Roar
+209,1104,Large Wind Pressure
+210,1104,Blastblight
+211,1104,Fireblight
+212,81,Small Roar
+213,81,Small Wind Pressure
+214,81,Thunderblight
+215,81,Paralysis
+216,82,Small Roar
+217,82,Bubbles
+218,82,Waterblight
+219,83,Small Roar
+220,83,Large Wind Pressure
+221,83,Small Wind Pressure
+222,83,Tremor
+223,83,Snowman
+224,83,Iceblight
+225,84,Large Roar
+226,84,Tremor
+227,84,Boned
+228,84,Mucus
+229,84,Paralysis
+230,84,Blastblight
+231,84,Fireblight
+232,84,Thunderblight
+233,84,Dragonblight

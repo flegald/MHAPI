@@ -1,9 +1,9 @@
 """REST views."""
 from rest_framework.decorators import api_view
-from rest_framework.generics import ListAPIView
+from rest_framework.generics import ListAPIView, RetrieveAPIView
 from rest_framework.response import Response
 
-from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy, MonsterSerializer
+from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy, MonsterSerializer, MonsterSerializerSingle
 
 from Locations.models import Location
 from Items.models import Weapon, Armor
@@ -149,3 +149,18 @@ class MonsterListView(ListAPIView):
     def list(self, request, *args, **kwargs):
         """Return list."""
         return super(MonsterListView, self).list(request, *args, **kwargs)
+
+
+class MonsterSingleView(RetrieveAPIView):
+    """List Single Monster."""
+
+    queryset = Monster.objects.all()
+    lookup_field = 'name'
+    serializer_class = MonsterSerializerSingle
+
+    def get(self, request, *args, **kwargs):
+        """Get out Single Monster."""
+        filter_by = kwargs['name']
+        self.queryset = self.queryset.filter(name=filter_by)
+        return super(MonsterSingleView, self).get(request, *args, **kwargs)
+

@@ -2,6 +2,7 @@
 from Locations.models import Location
 from Items.models import Armor, Item
 from Monsters.models import Monster, Buff, Damage, Habitat, Weakness
+from Quests.models import Quest
 import csv
 
 
@@ -188,4 +189,61 @@ def ailments_csv():
         for row in data:
             ailments(row)
 
+# Quests
 
+
+def return_quest_type(quest):
+    """Quest type."""
+    if quest == '1':
+        return 'Key'
+    elif quest == '2':
+        return 'Urgent'
+    else:
+        return ''
+
+
+def return_hunter_type(quest):
+    """Palico quest or not."""
+    if quest == '1':
+        return 'Palico'
+    else:
+        return ''
+
+
+def return_goal_type(quest):
+    """Get goal type."""
+    if quest == '3':
+        return 'Gathering'
+    elif quest == '2':
+        return 'Capture'
+    else:
+        return 'Slaying'
+
+
+def get_location(quest):
+    """Return Location Object."""
+    return Location.objects.get(key=quest)
+
+
+def quests_save(row):
+    """Create Quest Object."""
+    if row[0] == '_id':
+        print('header')
+    else:
+        location = get_location(row[9])
+        qtype = return_quest_type(row[4])
+        qhunter_type = return_hunter_type(row[7])
+        qgoal_type = return_goal_type(row[6])
+        to_save = Quest(key=row[0], name=row[1], location=location, goal=row[2], hub=row[3], qtype=qtype,
+                        rank=row[5], goal_type=qgoal_type, hunter_type=qhunter_type,
+                        stars=row[8], time_limit=row[10], fee=row[11], reward=row[12], hrp=row[13],
+                        sub_goal=row[14], sub_reward=row[15], sub_hrp=row[16])
+        to_save.save()
+
+
+def run_quest_csv():
+    """Loop through quests csv."""
+    with open('CSVs/quests.csv', 'rb') as ifile:
+        data = csv.reader(ifile)
+        for row in data:
+            quests_save(row)

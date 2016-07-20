@@ -13,5 +13,6 @@ urlpatterns = [
     url(r'^armorheavy/$', views.ArmorListViewHeavy.as_view(), name='Heavy Armor List'),
     url(r'^armor/(?P<name>[\w|\W]+)/$', views.ArmorSingleView, name='armor single'),
     url(r'^monsters/$', views.MonsterListView.as_view(), name='Monster List'),
-    url(r'^monsters/(?P<name>[\w|\W]+)/$', views.MonsterSingleView.as_view(), name='Monster Single')
+    url(r'^monsters/(?P<name>[\w|\W]+)/$', views.MonsterSingleView.as_view(), name='Monster Single'),
+    url(r'^quests/$', views.QuestListView.as_view(), name='Quest List')
 ]

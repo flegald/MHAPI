@@ -3,11 +3,12 @@ from rest_framework.decorators import api_view
 from rest_framework.generics import ListAPIView, RetrieveAPIView
 from rest_framework.response import Response
 
-from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy, MonsterSerializer, MonsterSerializerSingle
+from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy, MonsterSerializer, MonsterSerializerSingle, QuestListSerializer
 
 from Locations.models import Location
 from Items.models import Weapon, Armor
 from Monsters.models import Monster, Buff
+from Quests.models import Quest
 
 
 # Locations
@@ -164,3 +165,13 @@ class MonsterSingleView(RetrieveAPIView):
         self.queryset = self.queryset.filter(name=filter_by)
         return super(MonsterSingleView, self).get(request, *args, **kwargs)
 
+
+class QuestListView(ListAPIView):
+    """Display List of all Quests."""
+
+    queryset = Quest.objects.all()
+    serializer_class = QuestListSerializer
+
+    def list(self, request, *args, **kwargs):
+        """Return List of all locations."""
+        return super(QuestListView, self).list(request, *args, **kwargs)

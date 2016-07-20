@@ -3,6 +3,7 @@ from rest_framework import serializers
 from Locations.models import Location
 from Items.models import Weapon, Armor
 from Monsters.models import Monster, Buff, Damage, Habitat, Weakness
+from Quests.models import Quest
 
 
 class LocationSerializer(serializers.HyperlinkedModelSerializer):
@@ -137,3 +138,20 @@ class MonsterSerializerSingle(serializers.ModelSerializer):
 
         fields = ['key', 'name', 'mclass', 'base_hp', 'status', 'damage', 'habitat', 'weakness', 'ailments']
 
+
+# Quests
+
+class QuestListSerializer(serializers.HyperlinkedModelSerializer):
+    """Quest List serializer."""
+
+    class Meta:
+        """Meta."""
+
+        model = Quest
+        fields = ['name', 'qtype', 'stars']
+
+
+
+
+
+#TO DO: Create quest list by hub

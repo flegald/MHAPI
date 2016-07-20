@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'Locations',
     'Items',
     'Monsters',
+    'Quests',
     'RESTAPI',
 ]
 

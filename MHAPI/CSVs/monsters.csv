@@ -1,0 +1,106 @@
+_id,class,name,name_de,name_fr,name_es,name_it,name_ja,base_hp,signature_move,trait,icon_name,sort_name
+1,0,Rathian,Rathian,Rathian,Rathian,Rathian,リオレイア,4500,,,Rathian.png,Rathian
+2,0,Rathalos,Rathalos,Rathalos,Rathalos,Rathalos,リオレウス,4200,,,Rathalos.png,Rathalos
+3,0,Khezu,Khezu,Khezu,Khezu,Khezu,フルフル,4500,,,Khezu.png,Khezu
+8,0,Yian Kut-Ku,Yian Kut-Ku,Yian Kut-Ku,Yian Kut-Ku,Yian Kut-Ku,イャンクック,3800,,,Yian_Kut-Ku.png,Yian Kut-Ku
+9,0,Gypceros,Gypceros,Gypceros,Gypceros,Gypceros,ゲリョス,3900,,,Gypceros.png,Gypceros
+10,0,Plesioth,Plesioth,Plesioth,Plesioth,Plesioth,ガノトトス,4000,,,Plesioth.png,Plesioth
+11,0,Kirin,Kirin,Kirin,Kirin,Kirin,キリン,3200,,,Kirin.png,Kirin
+14,0,Velocidrome,Velocidrome,Velocidrome,Velocidrome,Velocidrome,ドスランポス,2000,,,Velocidrome.png,Velocidrome
+15,0,Gendrome,Gendrome,Gendrome,Gendrome,Gendrome,ドスゲネポス,2500,,,Gendrome.png,Gendrome
+16,0,Iodrome,Iodrome,Iodrome,Iodrome,Iodrome,ドスイーオス,3500,,,Iodrome.png,Iodrome
+17,0,Cephadrome,Cephadrome,Cephadrome,Cephadrome,Cephadrome,ドスガレオス,3000,,,Cephadrome.png,Cephadrome
+18,0,Yian Garuga,Yian Garuga,Yian Garuga,Yian Garuga,Yian Garuga,イャンガルルガ,4200,,,Yian_Garuga.png,Yian Garuga
+19,0,Daimyo Hermitaur,Daimyo Hermitaur,Hermitaur Daimyo,Daimyo Hermitaur,Daimyo Hermitaur,ダイミョウザザミ,3300,,,Daimyo_Hermitaur.png,Daimyo Hermitaur
+20,0,Shogun Ceanataur,Shogun Ceanataur,Ceanataur Shogun,Shogun Ceanataur,Shogun Ceanataur,ショウグンギザミ,4000,,,Shogun_Ceanataur.png,Shogun Ceanataur
+22,0,Blangonga,Blangonga,Blangonga,Blangonga,Blangonga,ドドブランゴ,4200,,,Blangonga.png,Blangonga
+23,0,Rajang,Rajang,Rajang,Rajang,Rajang,ラージャン,4500,,,Rajang.png,Rajang
+24,0,Kushala Daora,Kushala Daora,Kushala Daora,Kushala Daora,Kushala Daora,クシャルダオラ,4200,,,Kushala_Daora.png,Kushala Daora
+25,0,Chameleos,Chameleos,Chameleos,Chameleos,Chameleos,オオナズチ,6400,,,Chameleos.png,Chameleos
+27,0,Teostra,Teostra,Teostra,Teostra,Teostra,テオ・テスカトル,5300,,,Teostra.png,Teostra
+30,0,Bulldrome,Bulldrome,Bulldrome,Bulldrome,Bulldrome,ドスファンゴ,1800,,,Bulldrome.png,Bulldrome
+32,0,Tigrex,Tigrex,Tigrex,Tigrex,Tigrex,ティガレックス,5000,,,Tigrex.png,Tigrex
+33,0,Akantor,Akantor,Akantor,Akantor,Akantor,アカムトルム,7100,,,Akantor.png,Akantor
+36,0,Lavasioth,Lavasioth,Lavasioth,Lavasioth,Lavasioth,ヴォルガノス,4500,,,Lavasioth.png,Lavasioth
+37,0,Nargacuga,Nargacuga,Nargacuga,Nargacuga,Nargacuga,ナルガクルガ,4200,,,Nargacuga.png,Nargacuga
+38,0,Ukanlos,Ukanlos,Ukanlos,Ukanlos,Ukanlos,ウカムルバス,7000,,,Ukanlos.png,Ukanlos
+43,0,Deviljho,Dämonjho,Deviljho,Deviljho,Deviljho,イビルジョー,6600,,,Deviljho.png,Deviljho
+45,0,Uragaan,Uragaan,Uragaan,Uragaan,Uragaan,ウラガンキン,4300,,,Uragaan.png,Uragaan
+46,0,Lagiacrus,Lagiacrus,Lagiacrus,Lagiacrus,Lagiacrus,ラギアクルス,5000,,,Lagiacrus.png,Lagiacrus
+47,0,Royal Ludroth,Königs-Ludroth,Ludroth royal,Ludroth Real,Ludroth reale,ロアルドロス,4100,,,Royal_Ludroth.png,Royal Ludroth
+49,0,Agnaktor,Agnaktor,Agnaktor,Agnaktor,Agnaktor,アグナコトル,4600,,,Agnaktor.png,Agnaktor
+50,0,Alatreon,Alatreon,Alatreon,Alatreon,Alatreon,アルバトリオン,6000,,,Alatreon.png,Alatreon
+55,0,Duramboros,Duramboros,Duramboros,Duramboros,Duramboros,ドボルベルク,6600,,,Duramboros.png,Duramboros
+56,0,Nibelsnarf,Nibelsnarf,Nibelsnarf,Nibelsnarf,Nibelsnarf,ハプルボッカ,4000,,,Nibelsnarf.png,Nibelsnarf
+57,0,Zinogre,Zinogre,Zinogre,Zinogre,Zinogre,ジンオウガ,5300,,,Zinogre.png,Zinogre
+58,0,Amatsu,Amatsu,Amatsu,Amatsu,Amatsu,アマツマガツチ,8700,,,Amatsu.png,Amatsu
+60,0,Arzuros,Arzuros,Arzuros,Arzuros,Arzuros,アオアシラ,2400,,,Arzuros.png,Arzuros
+61,0,Lagombi,Lagombi,Lagombi,Lagombi,Lagombi,ウルクスス,3600,,,Lagombi.png,Lagombi
+62,0,Volvidon,Volvidon,Volvidon,Volvidon,Volvidon,ラングロトラ,3800,,,Volvidon.png,Volvidon
+63,0,Brachydios,Brachydios,Brachydios,Brachydios,Brachydios,ブラキディオス,4600,,,Brachydios.png,Brachydios
+65,0,Kecha Wacha,Kecha Wacha,Kecha Wacha,Kecha Wacha,Kecha Wacha,ケチャワチャ,3800,,,Kecha_Wacha.png,Kecha Wacha
+66,0,Tetsucabra,Tetsucabra,Tetsucabra,Tetsucabra,Tetsucabra,テツカブラ,4000,,,Tetsucabra.png,Tetsucabra
+67,0,Zamtrios,Zamtrios,Zamtrios,Zamtrios,Zamtrios,ザボアザギル,5200,,,Zamtrios.png,Zamtrios
+68,0,Najarala,Najarala,Najarala,Najarala,Najarala,ガララアジャラ,4350,,,Najarala.png,Najarala
+69,0,Seltas Queen,Seltas-Königin,Reine Seltas,Seltas Reina,Seltas regina,ゲネル・セルタス,5200,,,Seltas_Queen.png,Seltas Queen
+71,0,Gore Magala,Gore Magala,Gore Magala,Gore Magala,Gore Magala,ゴア・マガラ,4800,,,Gore_Magala.png,Gore Magala
+72,0,Shagaru Magala,Shagaru Magala,Shagaru Magala,Shagaru Magala,Shagaru Magala,シャガルマガラ,5500,,,Shagaru_Magala.png,Shagaru Magala
+76,0,Seltas,Seltas,Seltas,Seltas,Seltas,アルセルタス,2000,,,Seltas.png,Seltas
+77,0,Seregios,Seregios,Seregios,Seregios,Seregios,セルレギオス,4200,,,Seregios.png,Seregios
+79,0,Malfestio,Malfestio,Malfestio,Malfestio,Malfestio,ホロロホルル,4000,,,Malfestio.png,Malfestio
+80,0,Glavenus,Glavenus,Glavenus,Glavenus,Glavenus,ディノバルド,4400,,,Glavenus.png,Glavenus
+81,0,Astalos,Astalos,Astalos,Astalos,Astalos,ライゼクス,4500,,,Astalos.png,Astalos
+82,0,Mizutsune,Mizutsune,Mizutsune,Mizutsune,Mizutsune,タマミツネ,4600,,,Mizutsune.png,Mizutsune
+83,0,Gammoth,Gammoth,Gammoth,Gammoth,Gammoth,ガムート,5400,,,Gammoth.png,Gammoth
+84,0,Nakarkos,Nakarkos,Nakarkos,Nakarkos,Nakarkos,オストガロア,14000,,,Nakarkos.png,Nakarkos
+85,0,Great Maccao,Groß-Maccao,Grand Maccao,Gran Maccao,Gran Maccao,ドスマッカォ,2000,,,Great_Maccao.png,Great Maccao
+513,0,Gold Rathian,Goldene Rathian,Rathian d'or,Rathian Dorada,Rathian dorata,リオレイア希少種,4700,,,Gold_Rathian.png,Rathian-02
+514,0,Silver Rathalos,Silberner Rathalos,Rathalos d'argent,Rathalos Plateado,Rathalos argentato,リオレウス希少種,4900,,,Silver_Rathalos.png,Rathalos-02
+1025,0,Dreadqueen Rathian,Giftstachel-Rathian,Rathian Reine-poison,Rathian Maldita,Imperatrix Rathian,紫毒姫リオレイア,4900,,,Dreadqueen_Rathian.png,Rathian-04
+1026,0,Dreadking Rathalos,Dunkelfeuer-Rathalos,Rathalos Roi-enfer,Rathalos Maldito,Rex Rathalos,黒炎王リオレウス,5300,,,Dreadking_Rathalos.png,Rathalos-04
+1042,0,Deadeye Yian Garuga,Narbiger Yian Garuga,Yian Garuga Œil-mort,Yian Garuga Cíclope,Caecus Yian Garuga,隻眼イャンガルルガ,5000,,,Deadeye_Yian_Garuga.png,Yian Garuga-04
+1043,0,Stonefist Hermitaur,Steinfaust-Hermitaur,Hermitaur Poing-fer,Hermitaur Pétreo,Marmor Hermitaur,矛砕ダイミョウザザミ,5500,,,Stonefist_Hermitaur.png,Daimyo Hermitaur-04
+1056,0,Grimclaw Tigrex,Düsterklauen-Tigrex,Tigrex Griffe-sombre,Tigrex Guadaña,Furor Tigrex,荒鉤爪ティガレックス,6000,,,Grimclaw_Tigrex.png,Tigrex-04
+1061,0,Silverwind Nargacuga,Silberwind-Nargacuga,Nargacuga Vent-acier,Nargacuga Argénteo,Ventus Nargacuga,白疾風ナルガクルガ,5000,,,Silverwind_Nargacuga.png,Nargacuga-04
+1069,0,Crystalbeard Uragaan,Kristallbart-Uragaan,Uragaan Roi-cristal,Uragaan Vítreo,Adamas Uragaan,宝纏ウラガンキン,5500,,,Crystalbeard_Uragaan.png,Uragaan-04
+1081,0,Thunderlord Zinogre,Donnerschlag-Zinogre,Zinogre Feu-du-ciel,Zinogre Tormenta,Fulgur Zinogre,金雷公ジンオウガ,5800,,,Thunderlord_Zinogre.png,Zinogre-04
+1084,0,Redhelm Arzuros,Rothelm-Arzuros,Arzuros Crâne-ardent,Arzuros Ámbar,Sanguis Arzuros,紅兜アオアシラ,4500,,,Redhelm_Arzuros.png,Arzuros-04
+1085,0,Snowbaron Lagombi,Schneesturm-Lagombi,Lagombi Maître-neige,Lagombi Alud,Nix Lagombi,大雪主ウルクスス,4500,,,Snowbaron_Lagombi.png,Lagombi-04
+1090,0,Drilltusk Tetsucabra,Bohrhauer-Tetsucabra,Tetsucabra Brise-roc,Tetsucabra Toro,Vis Tetsucabra,岩穿テツカブラ,4700,,,Drilltusk_Tetsucabra.png,Tetsucabra-04
+1104,0,Hellblade Glavenus,Zornklingen-Glavenus,Glavenus Lame-chaos,Glavenus Inferno,Ignis Glavenus,燼滅刃ディノバルド,5100,,,Hellblade_Glavenus.png,Glavenus-04
+1303,0,Furious Rajang,Rajang,Rajang,Rajang,Rajang,激昂したラージャン,4800,,,Furious_Rajang.png,Rajang-05
+1323,0,Savage Deviljho,Dämonjho,Deviljho,Deviljho,Deviljho,怒り喰らうイビルジョー,6000,,,Savage_Deviljho.png,Deviljho-05
+4097,1,Aptonoth,Aptonoth,Aptonoth,Aptonoth,Aptonoth,アプトノス,0,,,Aptonoth.png,Aptonoth
+4098,1,Apceros,Apceros,Apceros,Apceros,Apceros,アプケロス,0,,,Apceros.png,Apceros
+4099,1,Kelbi,Kelbi,Kelbi,Kelbi,Kelbi,ケルビ,0,,,Kelbi.png,Kelbi
+4100,1,Mosswine,Mosswine,Mosswine,Mosswine,Mosswine,モス,0,,,Mosswine.png,Mosswine
+4101,1,Hornetaur,Hornetaur,Hornetaur,Hornetaur,Hornetaur,カンタロス,0,,,Hornetaur.png,Hornetaur
+4102,1,Vespoid,Vespoid,Vespoid,Vespoid,Vespoid,ランゴスタ,0,,,Vespoid.png,Vespoid
+4103,1,Felyne,Felyne,Felyne,Felyne,Felyne,アイルー,0,,,Felyne.png,Felyne
+4104,1,Melynx,Melynx,Melynx,Melynx,Melynx,メラルー,0,,,Melynx.png,Melynx
+4105,1,Velociprey,Velociprey,Velociprey,Velociprey,Velociprey,ランポス,0,,,Velociprey.png,Velociprey
+4106,1,Genprey,Genprey,Genprey,Genprey,Genprey,ゲネポス,0,,,Genprey.png,Genprey
+4107,1,Ioprey,Ioprey,Ioprey,Ioprey,Ioprey,イーオス,0,,,Ioprey.png,Ioprey
+4108,1,Cephalos,Cephalos,Cephalos,Cephalos,Cephalos,ガレオス,0,,,Cephalos.png,Cephalos
+4109,1,Bullfango,Bullfango,Bullfango,Bullfango,Bullfango,ブルファンゴ,0,,,Bullfango.png,Bullfango
+4110,1,Popo,Pepe,Popo,Popo,Popo,ポポ,0,,,Popo.png,Popo
+4111,1,Giaprey,Giaprey,Giaprey,Giaprey,Giaprey,ギアノス,0,,,Giaprey.png,Giaprey
+4112,1,Anteka,Anteka,Anteka,Anteka,Anteka,ガウシカ,0,,,Anteka.png,Anteka
+4115,1,Remobra,Remobra,Remobra,Remobra,Remobra,ガブラス,0,,,Remobra.png,Remobra
+4116,1,Hermitaur,Hermitaur,Hermitaur,Hermitaur,Hermitaur,ヤオザミ,0,,,Hermitaur.png,Hermitaur
+4117,1,Ceanataur,Ceanataur,Ceanataur,Ceanataur,Ceanataur,ガミザミ,0,,,Ceanataur.png,Ceanataur
+4119,1,Blango,Blango,Blango,Blango,Blango,ブランゴ,0,,,Blango.png,Blango
+4121,1,Rhenoplos,Rhenoplos,Rhenoplos,Rhenoplos,Rhenoplos,リノプロス,0,,,Rhenoplos.png,Rhenoplos
+4122,1,Bnahabra,Bnahabra,Bnahabra,Bnahabra,Bnahabra,ブナハブラ,0,,,Bnahabra.png,Bnahabra
+4123,1,Altaroth,Altaroth,Altaroth,Altaroth,Altaroth,オルタロス,0,,,Altaroth.png,Altaroth
+4130,1,Jaggi,Jaggi,Jaggi,Jaggi,Jaggi,ジャギィ,0,,,Jaggi.png,Jaggi
+4131,1,Jaggia,Jaggia,Jaggia,Jaggia,Jaggia,ジャギィノス,0,,,Jaggia.png,Jaggia
+4135,1,Ludroth,Ludroth,Ludroth,Ludroth,Ludroth,ルドロス,0,,,Ludroth.png,Ludroth
+4136,1,Uroktor,Uroktor,Uroktor,Uroktor,Uroktor,ウロコトル,0,,,Uroktor.png,Uroktor
+4137,1,Slagtoth,Slagtoth,Slagtoth,Slagtoth,Slagtoth,ズワロポス,0,,,Slagtoth.png,Slagtoth
+4138,1,Gargwa,Gargwa,Gargwa,Gargwa,Gargwa,ガーグァ,0,,,Gargwa.png,Gargwa
+4140,1,Zamite,Zamite,Zamite,Zamite,Zamite,スクアギル,0,,,Zamite.png,Zamite
+4141,1,Konchu,Konchu,Konchu,Konchu,Konchu,クンチュウ,0,,,Konchu.png,Konchu
+4142,1,Maccao,Maccao,Maccao,Maccao,Maccao,マッカォ,0,,,Maccao.png,Maccao
+4143,1,Larinoth,Larinoth,Larinoth,Larinoth,Larinoth,リモセトス,0,,,Larinoth.png,Larinoth
+4144,1,Moofah,Muufah,Moofah,Moofah,Moofah,ムーファ,0,,,Moofah.png,Mufa

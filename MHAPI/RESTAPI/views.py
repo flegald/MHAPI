@@ -3,10 +3,11 @@ from rest_framework.decorators import api_view
 from rest_framework.generics import ListAPIView
 from rest_framework.response import Response
 
-from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy
+from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy, MonsterSerializer
 
 from Locations.models import Location
 from Items.models import Weapon, Armor
+from Monsters.models import Monster, Buff
 
 
 # Locations
@@ -24,6 +25,7 @@ class LocationListView(ListAPIView):
 @api_view()
 def LocationSingleView(request, *args, **kwargs):
     """Display Single Location."""
+
     filter_by = kwargs['name']
     to_show = Location.objects.get(name=filter_by)
     img_link = to_show.map_img._get_url()
@@ -134,3 +136,16 @@ def ArmorSingleView(request, *args, **kwargs):
                     'Gender': to_show.gender,
                     'Hunter Type': to_show.hunter_type,
                     'Num Slots': to_show.num_slots})
+
+# Monsters
+
+
+class MonsterListView(ListAPIView):
+    """List Monster Data."""
+
+    queryset = Monster.objects.all()
+    serializer_class = MonsterSerializer
+
+    def list(self, request, *args, **kwargs):
+        """Return list."""
+        return super(MonsterListView, self).list(request, *args, **kwargs)

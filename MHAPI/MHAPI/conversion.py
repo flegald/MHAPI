@@ -1,6 +1,7 @@
 """Converting CSVs to Django Objects."""
+from Locations.models import Location
 from Items.models import Armor, Item
-from Monsters.models import Monster, Buff, Damage
+from Monsters.models import Monster, Buff, Damage, Habitat
 import csv
 
 
@@ -83,9 +84,30 @@ def monster_damage_save(row):
                         ko=row[10])
         to_save.save()
 
+
 def run_csv_damage():
     """Loop through monster damage csv file."""
     with open('CSVs/monster_damage.csv') as ifile:
         data = csv.reader(ifile)
         for row in data:
             monster_damage_save(row)
+
+
+def monster_habitat_save(row):
+    """Create Habitat Object."""
+    if row[0] == '_id':
+        print('header')
+    else:
+        monster_num = Monster.objects.get(key=row[1])
+        location_num = Location.objects.get(key=row[2])
+        to_save = Habitat(monster=monster_num, location=location_num, start_area=row[3],
+                            move_area=row[4], rest_area=row[5])
+        to_save.save()
+
+
+def run_csv_habitat():
+    """Loop Through habitat csv file."""
+    with open('CSVs/monster_habitat.csv', 'rb') as ifile:
+        data = csv.reader(ifile)
+        for row in data:
+            monster_habitat_save(row)

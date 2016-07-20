@@ -2,7 +2,7 @@
 from rest_framework import serializers
 from Locations.models import Location
 from Items.models import Weapon, Armor
-from Monsters.models import Monster, Buff, Damage
+from Monsters.models import Monster, Buff, Damage, Habitat
 
 
 class LocationSerializer(serializers.HyperlinkedModelSerializer):
@@ -88,6 +88,18 @@ class DamageSerializer(serializers.ModelSerializer):
                     'dragon', 'ko']
 
 
+class HabitatSerializer(serializers.HyperlinkedModelSerializer):
+    """Monster Habitat Serializer."""
+
+    location = LocationSerializer(many=False)
+
+    class Meta:
+        """Meta."""
+
+        model = Habitat
+        fields = ['location', 'start_area', 'move_area', 'rest_area']
+
+
 class MonsterSerializer(serializers.ModelSerializer):
     """Monster data."""
 
@@ -104,11 +116,12 @@ class MonsterSerializerSingle(serializers.ModelSerializer):
 
     weaknesses = MonsterBuffSerializer(many=True)
     damage = DamageSerializer(many=True)
+    habitat = HabitatSerializer(many=True)
 
     class Meta:
         """Meta."""
 
         model = Monster
 
-        fields = ['key', 'name', 'mclass', 'base_hp', 'weaknesses', 'damage']
+        fields = ['key', 'name', 'mclass', 'base_hp', 'weaknesses', 'damage', 'habitat']
 

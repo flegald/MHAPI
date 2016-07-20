@@ -4,6 +4,8 @@ from __future__ import unicode_literals
 
 from django.db import models
 
+from Locations.models import Location
+
 
 class Monster(models.Model):
     """Monster Model."""
@@ -43,6 +45,15 @@ class Damage(models.Model):
     dragon = models.CharField(max_length=255, null=True, blank=True)
     ko = models.CharField(max_length=255, null=True, blank=True)
 
+
+class Habitat(models.Model):
+    """Monster Habitat Model."""
+
+    monster = models.ForeignKey(Monster, related_name='habitat')
+    location = models.ForeignKey(Location, related_name='monster')
+    start_area = models.CharField(max_length=255, null=True, blank=True)
+    move_area = models.CharField(max_length=255, null=True, blank=True)
+    rest_area = models.CharField(max_length=255, null=True, blank=True)
 
 
 

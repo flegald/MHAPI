@@ -2,7 +2,7 @@
 from rest_framework import serializers
 from Locations.models import Location
 from Items.models import Weapon, Armor
-from Monsters.models import Monster, Buff, Damage, Habitat
+from Monsters.models import Monster, Buff, Damage, Habitat, Weakness
 
 
 class LocationSerializer(serializers.HyperlinkedModelSerializer):
@@ -74,7 +74,7 @@ class MonsterBuffSerializer(serializers.ModelSerializer):
         """Meta."""
 
         model = Buff
-        fields = ['buff_type', 'initial', 'increase', 'dmax', 'duration', 'damage']
+        fields = ['status_type', 'initial', 'increase', 'dmax', 'duration', 'damage']
 
 
 class DamageSerializer(serializers.ModelSerializer):
@@ -100,6 +100,17 @@ class HabitatSerializer(serializers.HyperlinkedModelSerializer):
         fields = ['location', 'start_area', 'move_area', 'rest_area']
 
 
+class MonsterWeaknessSerializer(serializers.ModelSerializer):
+    """Monster Weakness Serializer."""
+
+    class Meta:
+        """Meta."""
+
+        model = Weakness
+        fields = ['state', 'fire', 'water', 'ice', 'thunder', 'dragon', 'poison', 'para', 'sleep',
+                    'pitfall_trap', 'shock_trap', 'flash_bomb', 'sonic_bomb', 'dung_bomb', 'meat']
+
+
 class MonsterSerializer(serializers.ModelSerializer):
     """Monster data."""
 
@@ -114,14 +125,15 @@ class MonsterSerializer(serializers.ModelSerializer):
 class MonsterSerializerSingle(serializers.ModelSerializer):
     """Monster data."""
 
-    weaknesses = MonsterBuffSerializer(many=True)
+    status = MonsterBuffSerializer(many=True)
     damage = DamageSerializer(many=True)
     habitat = HabitatSerializer(many=True)
+    weakness = MonsterWeaknessSerializer(many=True)
 
     class Meta:
         """Meta."""
 
         model = Monster
 
-        fields = ['key', 'name', 'mclass', 'base_hp', 'weaknesses', 'damage', 'habitat']
+        fields = ['key', 'name', 'mclass', 'base_hp', 'status', 'damage', 'habitat', 'weakness']
 

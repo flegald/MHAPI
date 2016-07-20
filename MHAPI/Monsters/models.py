@@ -19,9 +19,9 @@ class Monster(models.Model):
 class Buff(models.Model):
     """Buff Damage Model."""
 
-    monster = models.ForeignKey(Monster, related_name='weaknesses')
+    monster = models.ForeignKey(Monster, related_name='status')
     key = models.CharField(max_length=255, null=True, blank=True)
-    buff_type = models.CharField(max_length=255, null=True, blank=True)
+    status_type = models.CharField(max_length=255, null=True, blank=True)
     initial = models.CharField(max_length=255, null=True, blank=True)
     increase = models.CharField(max_length=255, null=True, blank=True)
     dmax = models.CharField(max_length=255, null=True, blank=True)
@@ -56,6 +56,23 @@ class Habitat(models.Model):
     rest_area = models.CharField(max_length=255, null=True, blank=True)
 
 
+class Weakness(models.Model):
+    """Monster Weakness Model."""
 
-
+    monster = models.ForeignKey(Monster, related_name='weakness')
+    state = models.CharField(max_length=255, null=True, blank=True)
+    fire = models.CharField(max_length=255, null=True, blank=True)
+    water = models.CharField(max_length=255, null=True, blank=True)
+    thunder = models.CharField(max_length=255, null=True, blank=True)
+    ice = models.CharField(max_length=255, null=True, blank=True)
+    dragon = models.CharField(max_length=255, null=True, blank=True)
+    poison = models.CharField(max_length=255, null=True, blank=True)
+    para = models.CharField(max_length=255, null=True, blank=True)
+    sleep = models.CharField(max_length=255, null=True, blank=True)
+    pitfall_trap = models.CharField(max_length=255, null=True, blank=True)
+    shock_trap = models.CharField(max_length=255, null=True, blank=True)
+    flash_bomb = models.CharField(max_length=255, null=True, blank=True)
+    sonic_bomb = models.CharField(max_length=255, null=True, blank=True)
+    dung_bomb = models.CharField(max_length=255, null=True, blank=True)
+    meat = models.CharField(max_length=255, null=True, blank=True)
 

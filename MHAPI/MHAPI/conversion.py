@@ -1,7 +1,7 @@
 """Converting CSVs to Django Objects."""
 from Locations.models import Location
 from Items.models import Armor, Item
-from Monsters.models import Monster, Buff, Damage, Habitat
+from Monsters.models import Monster, Buff, Damage, Habitat, Weakness
 import csv
 
 
@@ -111,3 +111,60 @@ def run_csv_habitat():
         data = csv.reader(ifile)
         for row in data:
             monster_habitat_save(row)
+
+
+def yes_or_no(col):
+    """Return a yes or no value from a 1 or 0 entry in csv."""
+    if col == '1':
+        return 'Yes'
+    else:
+        return 'No'
+
+
+def lo_to_hi(col):
+    """Return a None to High value for a 0123 entry in csv."""
+    if col == '3':
+        return 'High'
+    elif col == '2':
+        return 'Mid'
+    elif col == '1':
+        return 'Low'
+    else:
+        return 'None'
+
+
+def monster_weakness_save(row):
+    """Create Weakness Object."""
+    if row[0] == '_id':
+        print('header')
+    else:
+        monster_num = Monster.objects.get(key=row[1])
+        fire = lo_to_hi(row[3])
+        water = lo_to_hi(row[4])
+        thunder = lo_to_hi(row[5])
+        ice = lo_to_hi(row[6])
+        dragon = lo_to_hi(row[7])
+        poison = lo_to_hi(row[8])
+        para = lo_to_hi(row[9])
+        sleep = lo_to_hi(row[10])
+        pitfall = yes_or_no(row[11])
+        shock = yes_or_no(row[12])
+        flash = yes_or_no(row[13])
+        sonic = yes_or_no(row[14])
+        dung = yes_or_no(row[15])
+        meat = yes_or_no(row[16])
+        to_save = Weakness(monster=monster_num, state=row[2], fire=fire, water=water, thunder=thunder,
+                            ice=ice, dragon=dragon, poison=poison, para=para, sleep=sleep,
+                            pitfall_trap=pitfall, shock_trap=shock, flash_bomb=flash,
+                            sonic_bomb=sonic, dung_bomb=dung, meat=meat)
+        to_save.save()
+
+
+def run_weakness_csv():
+    """Loop through weakness csv."""
+    with open('CSVs/monster_weakness.csv', 'rb') as ifile:
+        data = csv.reader(ifile)
+        for row in data:
+            monster_weakness_save(row)
+
+

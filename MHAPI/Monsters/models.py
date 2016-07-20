@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 
 from django.db import models
+from django.contrib.postgres.fields import ArrayField
 
 from Locations.models import Location
 
@@ -14,6 +15,7 @@ class Monster(models.Model):
     name = models.CharField(max_length=255, null=True, blank=True)
     mclass = models.CharField(max_length=255, null=True, blank=True)
     base_hp = models.CharField(max_length=255, null=True, blank=True)
+    ailments = ArrayField(models.CharField(max_length=255, null=True, blank=True),null=True, blank=True)
 
 
 class Buff(models.Model):

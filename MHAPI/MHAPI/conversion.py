@@ -168,3 +168,24 @@ def run_weakness_csv():
             monster_weakness_save(row)
 
 
+def ailments(row):
+    """Add ailments to Monster Model."""
+    if row[0] == '_id':
+        print('header')
+    else:
+        monster = Monster.objects.get(key=row[1])
+        if not monster.ailments:
+            monster.ailments = [row[2]]
+        else:
+            monster.ailments.append(row[2])
+        monster.save()
+
+
+def ailments_csv():
+    """Loop trought ailments csv."""
+    with open('CSVs/monster_ailments.csv', 'rb') as ifile:
+        data = csv.reader(ifile)
+        for row in data:
+            ailments(row)
+
+

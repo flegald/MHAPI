@@ -135,5 +135,5 @@ class MonsterSerializerSingle(serializers.ModelSerializer):
 
         model = Monster
 
-        fields = ['key', 'name', 'mclass', 'base_hp', 'status', 'damage', 'habitat', 'weakness']
+        fields = ['key', 'name', 'mclass', 'base_hp', 'status', 'damage', 'habitat', 'weakness', 'ailments']
 

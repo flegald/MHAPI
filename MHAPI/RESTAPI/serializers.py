@@ -2,7 +2,7 @@
 from rest_framework import serializers
 from Locations.models import Location
 from Items.models import Weapon, Armor
-from Monsters.models import Monster, Buff
+from Monsters.models import Monster, Buff, Damage
 
 
 class LocationSerializer(serializers.HyperlinkedModelSerializer):
@@ -77,6 +77,17 @@ class MonsterBuffSerializer(serializers.ModelSerializer):
         fields = ['buff_type', 'initial', 'increase', 'dmax', 'duration', 'damage']
 
 
+class DamageSerializer(serializers.ModelSerializer):
+    """Monster Damage Serializer."""
+
+    class Meta:
+        """Meta."""
+
+        model = Damage
+        fields = ['body_part', 'cut', 'impact', 'shot', 'fire', 'water', 'ice', 'thunder',
+                    'dragon', 'ko']
+
+
 class MonsterSerializer(serializers.ModelSerializer):
     """Monster data."""
 
@@ -92,11 +103,12 @@ class MonsterSerializerSingle(serializers.ModelSerializer):
     """Monster data."""
 
     weaknesses = MonsterBuffSerializer(many=True)
+    damage = DamageSerializer(many=True)
 
     class Meta:
         """Meta."""
 
         model = Monster
 
-        fields = ['key', 'name', 'mclass', 'base_hp', 'weaknesses']
+        fields = ['key', 'name', 'mclass', 'base_hp', 'weaknesses', 'damage']
 

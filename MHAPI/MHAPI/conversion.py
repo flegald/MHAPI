@@ -1,6 +1,6 @@
 """Converting CSVs to Django Objects."""
 from Items.models import Armor, Item
-from Monsters.models import Monster, Buff
+from Monsters.models import Monster, Buff, Damage
 import csv
 
 
@@ -69,3 +69,23 @@ def run_csv_mstatus():
         data = csv.reader(ifile)
         for row in data:
             monster_status_save(row)
+
+
+def monster_damage_save(row):
+    """Create Monster Damage Object."""
+    if row[0] == '_id':
+        print('header')
+    else:
+        monster_num = Monster.objects.get(key=row[1])
+        to_save = Damage(monster=monster_num, key=row[0], body_part=row[2], 
+                        cut=row[3], impact=row[4], shot=row[5], fire=row[6], 
+                        water=row[7], ice=row[8], thunder=row[9], dragon=row[10], 
+                        ko=row[10])
+        to_save.save()
+
+def run_csv_damage():
+    """Loop through monster damage csv file."""
+    with open('CSVs/monster_damage.csv') as ifile:
+        data = csv.reader(ifile)
+        for row in data:
+            monster_damage_save(row)

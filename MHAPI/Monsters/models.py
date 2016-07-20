@@ -27,6 +27,22 @@ class Buff(models.Model):
     damage = models.CharField(max_length=255, null=True, blank=True)
 
 
+class Damage(models.Model):
+    """Monster Damage Model."""
+
+    monster = models.ForeignKey(Monster, related_name='damage')
+    key = models.CharField(max_length=255, null=True, blank=True)
+    body_part = models.CharField(max_length=255, null=True, blank=True)
+    cut = models.CharField(max_length=255, null=True, blank=True)
+    impact = models.CharField(max_length=255, null=True, blank=True)
+    shot = models.CharField(max_length=255, null=True, blank=True)
+    fire = models.CharField(max_length=255, null=True, blank=True)
+    water = models.CharField(max_length=255, null=True, blank=True)
+    ice = models.CharField(max_length=255, null=True, blank=True)
+    thunder = models.CharField(max_length=255, null=True, blank=True)
+    dragon = models.CharField(max_length=255, null=True, blank=True)
+    ko = models.CharField(max_length=255, null=True, blank=True)
+
 
 
 

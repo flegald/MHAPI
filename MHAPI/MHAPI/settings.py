@@ -87,13 +87,23 @@ WSGI_APPLICATION = 'MHAPI.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
-DATABASES = {
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'MH',
+#   }
+#}
+
+DATABASES = {    
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'MH',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'mhgen',
+        'USER' : 'Mcfuss',
+        'PASSWORD' : os.environ.get('MHPASS'),
+        'HOST' : 'mhgen.cyatq92yrtow.us-west-2.rds.amazonaws.com',
+        'PORT' : '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators

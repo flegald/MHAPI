@@ -18,5 +18,7 @@ urlpatterns = [
     url(r'^quests/hub/(?P<hub>[\w]+)/$', views.QuestHubListView.as_view(), name='Quest Hub List'),
     url(r'^quests/hub/(?P<hub>[\w]+)/(?P<name>[\w|\W]+)/$', views.QuestSingleView.as_view(), name='Quest Single View'),
     url(r'^quests/monsters/(?P<monster>[\w|\W]+)/$', views.QuestsByMonster.as_view(), name='quests by monster'),
-    url(r'^quests/stars/(?P<stars>[0-9]+)/$', views.QuestsByStars.as_view(), name="Quests By Stars")
+    url(r'^quests/stars/(?P<stars>[0-9]+)/$', views.QuestsByStars.as_view(), name="Quests By Stars"),
+    url(r'^skills/$', views.SkillTreeList.as_view(), name='Skill Tree List'),
+    url(r'^skills/(?P<name>[\w|\W]+)/$', views.SingleSkillTreeView.as_view(), name='Single Skill Tree')
 ]

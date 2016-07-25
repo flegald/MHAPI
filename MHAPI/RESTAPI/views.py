@@ -3,12 +3,13 @@ from rest_framework.decorators import api_view
 from rest_framework.generics import ListAPIView, RetrieveAPIView
 from rest_framework.response import Response
 
-from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy, MonsterSerializer, MonsterSerializerSingle, QuestListSerializer, QuestSerializerSingle
+from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy, MonsterSerializer, MonsterSerializerSingle, QuestListSerializer, QuestSerializerSingle, SkillTreeSerializer, SingleSkillTreeSerializer
 
 from Locations.models import Location
 from Items.models import Weapon, Armor
 from Monsters.models import Monster, Buff
 from Quests.models import Quest
+from Skills.models import SkillTree, Skill
 
 
 # Locations
@@ -234,3 +235,28 @@ class QuestsByStars(ListAPIView):
         self.queryset = Quest.objects.filter(stars=filter_by)
         import pdb; pdb.set_trace()
         return super(QuestsByStars, self).list(request, *args, **kwargs)
+
+
+class SkillTreeList(ListAPIView):
+    """List all skill tree names."""
+
+    queryset = SkillTree.objects.all()
+    serializer_class = SkillTreeSerializer
+
+    def list(self, request, *args, **kwargs):
+        """Return list."""
+        return super(SkillTreeList, self).list(request, *args, **kwargs)
+
+
+class SingleSkillTreeView(RetrieveAPIView):
+    """Display single skill tree and skills."""
+
+    queryset = SkillTree.objects.all()
+    lookup_field = 'name'
+    serializer_class = SingleSkillTreeSerializer
+
+    def get(self, request, *args, **kwargs):
+        """Get out Single Skill Tree."""
+        filter_by = kwargs['name']
+        self.queryset = self.queryset.filter(name=filter_by)
+        return super(SingleSkillTreeView, self).get(request, *args, **kwargs)

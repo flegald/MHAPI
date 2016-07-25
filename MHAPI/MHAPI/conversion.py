@@ -3,6 +3,7 @@ from Locations.models import Location
 from Items.models import Armor, Item
 from Monsters.models import Monster, Buff, Damage, Habitat, Weakness
 from Quests.models import Quest
+from Skills.models import SkillTree, Skill
 import csv
 
 
@@ -266,3 +267,38 @@ def run_mtoq_csv():
         data = csv.reader(ifile)
         for row in data:
             add_monster(row)
+
+
+def skill_tree_save(row):
+    """Create Skill objects."""
+    if row[0] == '_id':
+        print('header')
+    else:
+        to_save = Skill(key=row[0], name=row[1])
+        to_save.save()
+
+
+def run_skill_tree_csv():
+    """Loop through skill tree csv."""
+    with open('CSVs/skill_tree.csv', 'rb') as ifile:
+        data = csv.reader(ifile)
+        for row in data:
+            skill_tree_save(row)
+
+
+def skill_save(row):
+    """Create skill objects."""
+    if row[0] == '_id':
+        print('header')
+    else:
+        tree = SkillTree.objects.get(key=row[1])
+        to_save = Skill(key=row[0], tree=tree, required_points=row[2], name=row[3], description=row[9])
+        to_save.save()
+
+
+def run_skill_csv():
+    """Loop through skill csv."""
+    with open("CSVs/skills.csv", 'rb') as ifile:
+        data = csv.reader(ifile)
+        for row in data:
+            skill_save(row)

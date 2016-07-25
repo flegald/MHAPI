@@ -4,12 +4,14 @@ from __future__ import unicode_literals
 
 from django.db import models
 from Locations.models import Location
+from Monsters.models import Monster
 
 
 class Quest(models.Model):
     """Quest Model."""
 
     key = models.CharField(max_length=255, null=True, blank=True)
+    monsters = models.ManyToManyField(Monster, null=True, blank=True)
     name = models.CharField(max_length=255, null=True, blank=True)
     qtype = models.CharField(max_length=255, null=True, blank=True)
     location = models.ForeignKey(Location, related_name='quests')
@@ -26,5 +28,4 @@ class Quest(models.Model):
     sub_goal = models.CharField(max_length=255, null=True, blank=True)
     sub_reward = models.CharField(max_length=255, null=True, blank=True)
     sub_hrp = models.CharField(max_length=255, null=True, blank=True)
-
 

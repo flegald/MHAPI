@@ -148,10 +148,18 @@ class QuestListSerializer(serializers.HyperlinkedModelSerializer):
         """Meta."""
 
         model = Quest
-        fields = ['name', 'qtype', 'stars']
+        fields = ['name', 'qtype', 'stars', 'hub']
 
 
+class QuestSerializerSingle(serializers.ModelSerializer):
+    """Songle Quest Data."""
 
+    monsters = MonsterSerializerSingle(many=True)
 
+    class Meta:
+        """Meta."""
 
-#TO DO: Create quest list by hub
+        model = Quest
+        fields = ['name', 'qtype', 'location', 'monsters', 'goal', 'hub', 'rank', 'goal_type', 'hunter_type',
+                    'stars', 'time_limit', 'fee', 'reward', 'hrp', 'sub_goal', 'sub_reward', 'sub_hrp']
+

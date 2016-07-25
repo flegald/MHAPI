@@ -3,7 +3,7 @@ from rest_framework.decorators import api_view
 from rest_framework.generics import ListAPIView, RetrieveAPIView
 from rest_framework.response import Response
 
-from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy, MonsterSerializer, MonsterSerializerSingle, QuestListSerializer
+from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy, MonsterSerializer, MonsterSerializerSingle, QuestListSerializer, QuestSerializerSingle
 
 from Locations.models import Location
 from Items.models import Weapon, Armor
@@ -175,3 +175,62 @@ class QuestListView(ListAPIView):
     def list(self, request, *args, **kwargs):
         """Return List of all locations."""
         return super(QuestListView, self).list(request, *args, **kwargs)
+
+
+class QuestHubListView(ListAPIView):
+    """Display lists of either village or guild quests."""
+
+    queryset = Quest.objects.all()
+    serializer_class = QuestListSerializer
+
+    def list(self, request, *args, **kwargs):
+        """Get either village or guild quests."""
+        filter_by = kwargs['hub']
+        self.queryset = self.queryset.filter(hub=filter_by)
+        return super(QuestHubListView, self).list(request, *args, **kwargs)
+
+
+class QuestSingleView(RetrieveAPIView):
+    """Display a single quests data."""
+
+    queryset = Quest.objects.all()
+    lookup_field = 'name'
+    serializer_class = QuestSerializerSingle
+
+    def get(self, request, *args, **kwargs):
+        """Get out Single Quest."""
+        filter_by_name = kwargs['name']
+        filter_by_hub = kwargs['hub']
+        self.queryset = self.queryset.filter(hub=filter_by_hub)
+        self.queryset = self.queryset.filter(name=filter_by_name)
+        return super(QuestSingleView, self).get(request, *args, **kwargs)
+
+
+class QuestsByMonster(ListAPIView):
+    """Disply all quests with certain monster."""
+
+    queryset = Quest.objects.all()
+    lookup_field = 'name'
+    serializer_class = QuestListSerializer
+
+    def list(self, request, *args, **kwargs):
+        """Get out all quests with certain monster."""
+        mname = kwargs['monster']
+        filter_by = Monster.objects.get(name=mname)
+        self.queryset = self.queryset.filter(monsters__in=[filter_by])
+        return super(QuestsByMonster, self).list(request, *args, **kwargs)
+
+
+class QuestsByStars(ListAPIView):
+    """Display Quests with a certain star rank."""
+
+    queryset = Quest.objects.all()
+    lookup_field = 'name'
+    serializer_class = QuestListSerializer
+
+    def list(self, request, *args, **kwargs):
+        """Get out list of all quests with certain star."""
+        filter_by = kwargs['stars']
+        self.queryset = Quest.objects.filter(stars=filter_by)
+        import pdb; pdb.set_trace()
+        return super(QuestsByStars, self).list(request, *args, **kwargs)

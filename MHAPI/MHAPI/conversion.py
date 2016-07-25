@@ -247,3 +247,22 @@ def run_quest_csv():
         data = csv.reader(ifile)
         for row in data:
             quests_save(row)
+
+
+def add_monster(row):
+    """Link monsters to quests."""
+    if row[0] == '_id':
+        print('header')
+    else:
+        quest = Quest.objects.get(key=row[2])
+        monster = Monster.objects.get(key=row[1])
+        #unstable = yes_or_no(row[3]) DO NOT KNOW HOW TO SAVE THIS TOO???
+        quest.monsters.add(monster)
+
+
+def run_mtoq_csv():
+    """Loop through monster to quest csv file."""
+    with open('CSVs/monstertoquest.csv', 'rb') as ifile:
+        data = csv.reader(ifile)
+        for row in data:
+            add_monster(row)

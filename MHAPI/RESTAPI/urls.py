@@ -13,6 +13,10 @@ urlpatterns = [
     url(r'^armorheavy/$', views.ArmorListViewHeavy.as_view(), name='Heavy Armor List'),
     url(r'^armor/(?P<name>[\w|\W]+)/$', views.ArmorSingleView, name='armor single'),
     url(r'^monsters/$', views.MonsterListView.as_view(), name='Monster List'),
-    url(r'^monsters/(?P<name>[\w|\W]+)/$', views.MonsterSingleView.as_view(), name='Monster Single'),
-    url(r'^quests/$', views.QuestListView.as_view(), name='Quest List')
+    url(r'^monsters/(?P<name>[\w]+)/$', views.MonsterSingleView.as_view(), name='Monster Single'),
+    url(r'^quests/$', views.QuestListView.as_view(), name='Quest List'),
+    url(r'^quests/hub/(?P<hub>[\w]+)/$', views.QuestHubListView.as_view(), name='Quest Hub List'),
+    url(r'^quests/hub/(?P<hub>[\w]+)/(?P<name>[\w|\W]+)/$', views.QuestSingleView.as_view(), name='Quest Single View'),
+    url(r'^quests/monsters/(?P<monster>[\w|\W]+)/$', views.QuestsByMonster.as_view(), name='quests by monster'),
+    url(r'^quests/stars/(?P<stars>[0-9]+)/$', views.QuestsByStars.as_view(), name="Quests By Stars")
 ]

@@ -1,1 +1,1 @@
-web: gunicorn MHAPI.wsgi
+web: gunicorn MHAPI.MHAPI.wsgi

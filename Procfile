@@ -1,1 +1,1 @@
-web: gunicorn MHAPI.wsgi.py --log-file -
+web: gunicorn MHAPI.wsgi

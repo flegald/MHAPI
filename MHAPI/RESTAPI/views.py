@@ -233,7 +233,6 @@ class QuestsByStars(ListAPIView):
         """Get out list of all quests with certain star."""
         filter_by = kwargs['stars']
         self.queryset = Quest.objects.filter(stars=filter_by)
-        import pdb; pdb.set_trace()
         return super(QuestsByStars, self).list(request, *args, **kwargs)
 
 

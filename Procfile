@@ -1,1 +1,1 @@
-web: gunicorn MHAPI.MHAPI.wsgi
+web: gunicorn --pythonpath MHAPI MHAPI.wsgi

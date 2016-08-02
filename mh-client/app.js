@@ -9,10 +9,20 @@ $.get('templates/panel.handlebars', function(data) {
 });
 
 $('#anchor').on('click', '.panel', function() {
-  $('.info').hide();
-  $(this).children('.info').show();
   $('h3').removeClass('highlight');
   $(this).find('h3').addClass('highlight');
+
+  $('.info').remove();
+  $(this).after('<section class="info"></section>')
+
+  var thisApi = $(this).attr('id');
+  $('.info').html('<p>This is the ' + thisApi + ' API list</p>');
+  $('.info').addClass('open');
+});
+
+$('#anchor').on('click', '.info', function() {
+  console.log('click');
+  $(this).toggleClass('open');
 });
 
 });

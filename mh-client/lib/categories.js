@@ -1,5 +1,5 @@
 var categories = [
-  
+
   {
     title: 'Weapons',
     icon: 'http://3.bp.blogspot.com/-KdFnWe-YJtM/Tn1Aoboc9CI/AAAAAAAAAH0/4_sX3CYK5tE/s1600/snss.png',
@@ -27,6 +27,10 @@ var categories = [
   {
     title: 'Skills',
     icon: 'http://vignette2.wikia.nocookie.net/monsterhunter/images/6/6f/ItemIcon017.png/revision/latest?cb=20100611125606',
+  },
+  {
+    title: 'Crafting',
+    icon: 'http://vignette1.wikia.nocookie.net/monsterhunter/images/b/b7/ItemIcon060.png/revision/latest?cb=20100611141054',
   },
 
 ];

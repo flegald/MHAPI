@@ -1,0 +1,728 @@
+_id,name,goal,hub,type,rank,goal_type,hunter_type,stars,location_id,time_limit,fee,reward,hrp,sub_goal,sub_reward,sub_hrp
+101,Find the Ferns,Deliver 8 Unique Ferns,Village,1,LR,3,0,1,1,50,0,300,30,Deliver 10 Unique Mushrooms,600,10
+102,Due for Dragon Amber,Deliver 3 Dragon Amber Pieces,Village,0,LR,3,0,1,1,50,0,300,30,Deliver 2 Fossilized Bones,300,10
+103,Medicinal Moths,Deliver 3 Immortal Moths,Village,0,LR,3,0,1,1,50,0,300,30,Slay 3 Bnahabra,300,10
+104,Horns o' Plenty,Deliver 3 Kelbi Horns,Village,0,LR,3,0,1,1,50,0,300,30,Deliver a White Liver,300,10
+105,A Fungal Hunt,Deliver 5 Abyssal Mushrooms,Village,1,LR,3,0,1,1,50,0,300,30,None,0,0
+106,Wipe Out!,Slay 10 Maccao,Village,1,LR,1,0,1,1,50,0,300,30,None,0,0
+107,Another Pack Attack,Slay 10 Jaggi,Village,1,LR,1,0,1,101,50,0,300,30,None,0,0
+201,Harvest Tour: Jurassic Frontier,Survive until time expires or deliver a Paw Pass Ticket,Village,0,LR,3,0,2,1,50,0,12,0,None,0,0
+202,Harvest Tour: Dunes,Survive until time expires or deliver a Paw Pass Ticket,Village,0,LR,3,0,2,5,50,0,12,0,None,0,0
+203,Harvest Tour: Verdant Hills,Survive until time expires or deliver a Paw Pass Ticket,Village,0,LR,3,0,2,2,50,0,12,0,None,0,0
+204,Harvest Tour: Arctic Ridge,Survive until time expires or deliver a Paw Pass Ticket,Village,0,LR,3,0,2,3,50,0,12,0,None,0,0
+205,Harvest Tour: Misty Peaks,Survive until time expires or deliver a Paw Pass Ticket,Village,0,LR,3,0,2,4,50,0,12,0,None,0,0
+206,Vaulting Outlaw,Hunt a Great Maccao,Village,2,LR,0,0,2,1,50,100,900,70,Slay 5 Maccao,600,10
+207,Rambunctious Rhenoplos,Slay 5 Rhenoplos,Village,1,LR,1,0,2,1,50,50,600,40,None,0,0
+208,On the Rebound,Slay 15 Maccao,Village,0,LR,1,0,2,101,50,100,1200,40,Wound Great Maccao's head,300,10
+209,A Berry Good Idea,Deliver 3 Ancient Berries,Village,0,LR,3,0,2,1,50,100,900,50,Deliver 2 Water Lily Roots,300,10
+210,A Fern is Forever,Deliver 20 Unique Ferns,Village,0,LR,3,0,2,101,50,100,1200,40,Deliver 5 Abyssal Mushrooms,600,10
+211,Jurassic Frontier Accounting,Earn 1000 Wycademy Points,Village,0,LR,3,0,2,1,50,200,1500,100,Hunt a Great Maccao,900,70
+212,Gendrome Roadblock,Hunt a Gendrome,Village,1,LR,0,0,2,5,50,100,1200,90,Slay 5 Genprey,600,10
+213,The Land Sharq,Hunt a Cephadrome,Village,1,LR,0,0,2,5,50,200,1500,100,Mount and topple monster twice,300,10
+214,Slay the Genprey!,Slay 10 Genprey,Village,0,LR,1,0,2,5,50,100,900,40,Deliver 2 Carapaceon Brains,300,10
+215,Hermit Grab,Slay 5 Hermitaurs,Village,1,LR,1,0,2,5,50,50,600,40,Deliver 3 Apceros Livers,600,10
+216,Birthday Berries,Deliver 5 Tropical Berries,Village,0,LR,3,0,2,5,50,50,600,40,Deliver 10 Fossilized Bones,600,10
+217,Liver of Legend!,Deliver 5 Piscine Livers,Village,0,LR,3,0,2,5,50,200,1500,50,Slay 5 Cephalos,900,10
+218,Dunes Accounting,Earn 1000 Wycademy Points,Village,0,LR,3,0,2,5,50,200,1500,100,Hunt a Gendrome,1200,90
+219,Hunt Down the Velocidrome!,Hunt a Velocidrome,Village,0,LR,0,0,2,2,50,100,900,70,Slay 5 Velociprey,600,10
+220,Slay the Velociprey!,Slay 10 Velociprey,Village,0,LR,1,0,2,2,50,100,900,40,None,0,0
+221,Bullfango Tango,Slay 10 Bullfango,Village,0,LR,1,0,2,102,50,100,1200,40,Wound Velocidrome's head,300,10
+222,Prime Premium Sashimi,Deliver 3 Premium Sashimi,Village,0,LR,3,0,2,2,50,100,900,50,Deliver a Goldenfish,600,10
+223,Verdant Hills Accounting,Earn 1000 Wycademy Points,Village,0,LR,3,0,2,2,50,200,1500,100,Hunt a Velocidrome,900,70
+224,The Mountain Roughrider,Hunt a Bulldrome,Village,0,LR,0,0,2,3,50,100,1200,80,Slay 3 Bullfango,300,10
+225,Slay the Giaprey!,Slay 10 Giaprey,Village,0,LR,1,0,2,3,50,100,900,40,None,0,0
+226,A Pack of Blangos,Slay 10 Blangos,Village,0,LR,1,0,2,103,50,200,1500,40,Mount and topple monster twice,300,10
+227,Medicinal Mountain Herbs,Deliver 10 Mountain Herbs,Village,0,LR,3,0,2,3,50,50,600,40,Deliver 2 Popo Tongues,300,10
+228,Arctic Ridge Accounting,Earn 1000 Wycademy Points,Village,0,LR,3,0,2,3,50,200,1500,100,Hunt a Bulldrome,1200,80
+229,Arzuros the Azure Beast,Hunt an Arzuros,Village,0,LR,0,0,2,4,50,100,1200,90,Mount and topple monster twice,300,10
+230,Bye Bye Jaggia,Slay 8 Jaggia,Village,0,LR,1,0,2,4,50,100,900,40,None,0,0
+231,Howling Harassment,Slay 15 Jaggi,Village,0,LR,1,0,2,104,50,100,1200,40,Wound Arzuros's front leg,300,10
+232,Fungal Fad,Deliver 10 Unique Mushrooms,Village,0,LR,3,0,2,4,50,50,600,40,Deliver 5 Super Sprouts,300,10
+233,Sunsnug Sprout Courier,Deliver 10 Super Sprouts,Village,0,LR,3,0,2,4,50,100,900,40,Deliver 3 Secret Stashes,300,10
+234,Misty Peaks Accounting,Earn 1000 Wycademy Points,Village,0,LR,3,0,2,4,50,200,1500,100,Hunt an Arzuros,1200,90
+301,Harvest Tour: Deserted Island,Survive until time expires or deliver a Paw Pass Ticket,Village,0,LR,3,0,3,6,50,0,12,0,None,0,0
+302,Harvest Tour: Marshlands,Survive until time expires or deliver a Paw Pass Ticket,Village,0,LR,3,0,3,7,50,0,12,0,None,0,0
+303,Tusked Tantrum,Hunt a Tetsucabra,Village,2,LR,0,0,3,101,50,300,2400,180,Wound Tetsucabra's jaw,300,20
+304,Stomping Grounds,Hunt a Yian Kut-Ku,Village,1,LR,0,0,3,1,50,200,1800,140,Deliver 2 Ancient Berries,300,10
+305,Chasing Tail,Hunt 2 Great Maccao,Village,0,LR,0,0,3,101,50,200,1800,110,Deliver 1 Wyvern Tear,600,10
+306,Jurassic Treasure: The Frog,Capture a Tetsucabra,Village,0,LR,2,0,3,1,50,400,3600,250,None,0,0
+307,Bit by the Fashion Bug,Slay 20 Bnahabra,Village,0,LR,1,0,3,101,50,200,1200,80,None,0,0
+308,Tumultuous Sprouts,Deliver 8 Abyssal Mushrooms,Village,0,LR,3,0,3,101,50,200,1200,80,None,0,0
+309,Tumultuous Sprouts,Deliver 8 Abyssal Mushrooms,Village,0,LR,3,0,3,101,50,200,1200,80,None,0,0
+310,Fishy Favor,Deliver 3 Brocadefish,Village,0,LR,3,0,3,101,50,200,1800,100,None,0,0
+311,Crustacean Frustration,Hunt a Daimyo Hermitaur,Village,1,LR,0,0,3,5,50,300,2400,180,Slay 8 Hermitaurs,1200,20
+312,The Desert Gourmand,Hunt a Nibelsnarf,Village,1,LR,0,0,3,5,50,300,2700,220,Wound Nibelsnarf's front legs,300,20
+313,Konchu Collector,Slay 15 Konchu,Village,0,LR,1,0,3,5,50,200,1200,80,Hunt a Cephadrome,1500,100
+314,Cancer of the Dunes,Slay 10 before time expires or deliver a Paw Pass Ticket,Village,0,LR,1,0,3,5,50,200,1500,100,None,0,0
+315,Deliver the Liver,Deliver 5 Apceros Livers,Village,0,LR,3,0,3,5,50,200,1200,80,Deliver 5 Royal Rhinos,900,10
+316,Farming Frustrations,Slay 20 Velociprey,Village,0,LR,1,0,3,102,50,200,1800,80,Hunt a Velocidrome,900,70
+317,Financial Focus on Fungus,Deliver 10 Unique Mushrooms,Village,0,LR,3,0,3,2,50,100,900,80,Deliver 2 White Livers,300,10
+318,Local Threat,Hunt a Yian Kut-Ku,Village,0,LR,0,0,3,2,50,200,1800,140,Wound Yian Kut-Ku's head,300,10
+319,Into the Wyvern's Den,Deliver 2 Wyvern Eggs,Village,0,LR,3,0,3,102,50,300,2400,120,None,0,0
+320,Into the Wyvern's Den,Deliver 2 Wyvern Eggs,Village,0,LR,3,0,3,102,50,300,2400,120,None,0,0
+321,Snow with Occasional Lagombi,Hunt a Lagombi,Village,0,LR,0,0,3,3,50,200,1800,100,Wound Lagombi's head,300,10
+322,Anteka Anticipation,Slay 8 Anteka,Village,0,LR,1,0,3,103,50,100,900,80,Deliver 1 Khezu Whelp,600,10
+323,The Shadow in the Mountains,Hunt a Khezu,Village,0,LR,0,0,3,3,50,300,2700,220,Mount and topple monster twice,300,20
+324,No Go on the Popo,Deliver 3 Popo Tongues,Village,0,LR,3,0,3,103,50,100,900,80,None,0,0
+325,No Go on the Popo,Deliver 3 Popo Tongues,Village,0,LR,3,0,3,103,50,100,900,80,None,0,0
+326,Bully the Bullfango,Slay 20 Bullfango,Village,0,LR,1,0,3,104,50,300,2100,80,Hunt a Bulldrome,1200,80
+327,For Whom the Egg Yolks,Deliver 3 Gargwa Eggs,Village,0,LR,3,0,3,4,50,200,1800,120,Deliver 3 Gargwa Guano,300,10
+328,Royal Spit Take,Hunt a Royal Ludroth,Village,0,LR,0,0,3,4,50,300,2400,180,Deliver 1 Wyvern Tear,600,20
+329,A Forest Fracas,Hunt a Bulldrome,Village,0,LR,0,0,3,104,50,200,1200,80,None,0,0
+330,A Forest Fracas,Hunt a Bulldrome,Village,0,LR,0,0,3,104,50,200,1200,80,None,0,0
+331,Royal Honey Hunt,Deliver 5 Royal Honeys,Village,0,LR,3,0,3,104,50,100,900,80,Hunt an Arzuros,1200,90
+332,Current Events,Hunt a Royal Ludroth,Village,1,LR,0,0,3,6,50,300,2400,180,Slay 8 Ludroth,1200,20
+333,The Crabbiest Catch,Capture a Daimyo Hermitaur,Village,0,LR,2,0,3,6,50,400,3600,250,Break Daimyo's claws,300,30
+334,Pack Woes,Slay a total of 20 Jaggi or Jaggia,Village,0,LR,1,0,3,6,50,200,1800,80,None,0,0
+335,The Fungus Among Us,Deliver 5 Ripened Mushrooms,Village,0,LR,3,0,3,6,50,200,1200,100,Deliver 10 Unique Mushrooms,600,10
+336,Moofah Must-haves,Deliver 5 pieces of Moofah Fur,Village,0,LR,3,0,3,6,50,100,900,100,None,0,0
+337,Deserted Island Accounting,Earn 1000 Wycademy Points,Village,0,LR,3,0,3,6,50,300,2100,150,Hunt a Tetsucabra,2400,180
+338,Sunsnug Isle Rescue!,Hunt an Iodrome,Village,0,LR,0,0,3,7,50,200,1800,110,Slay 12 Ioprey,1200,10
+339,Robbed Blind,Hunt a Gypceros,Village,1,LR,0,0,3,7,50,300,2100,170,Wound Gypceros's crest,300,20
+340,Pest Control,Slay a total of 20 Vespoid or Hornetaur,Village,0,LR,1,0,3,7,50,200,1200,80,None,0,0
+341,Travelers in Trouble,Slay 10 Ioprey,Village,0,LR,1,0,3,7,50,200,1200,80,Hunt an Iodrome,1800,110
+342,Royal Rhinos Gone Wild,Deliver 10 Royal Rhinos,Village,0,LR,3,0,3,7,50,200,1800,80,Deliver 5 Auristone Pieces,1200,10
+343,Marshlands Accounting,Earn 1000 Wycademy Points,Village,0,LR,3,0,3,7,50,300,2100,150,Hunt a Yian Kut-Ku,1800,140
+401,Harvest Tour: Volcano,Survive until time expires or deliver a Paw Pass Ticket,Village,0,LR,3,0,4,8,50,0,12,0,None,0,0
+402,The Nocturnal Enchanter,Hunt a Malfestio,Village,2,LR,0,0,4,101,50,300,3000,200,Wound Malfestio's head,600,20
+403,Wyvern of the Wind,Hunt a Nargacuga,Village,0,LR,0,0,4,1,50,400,3600,250,Mount and topple monster twice,600,30
+404,Jurassic Treasure: The Bug,Hunt a Volvidon,Village,0,LR,0,0,4,1,50,300,2400,120,Slay 15 Bnahabra,900,10
+405,Unlock the Secret to...,Deliver 2 Eternal Fossils,Village,0,LR,3,0,4,101,50,400,3600,180,Sever Rathian's tail,600,20
+406,A Unique Cuppa,Deliver 10 Unique Ferns or a Paw Pass Ticket,Village,0,LR,3,0,4,101,30,200,1800,150,Wound Nargacuga's wing,600,20
+407,Hunt-a-thon: Gendrome,Hunt 2 before time expires or deliver a Paw Pass Ticket,Village,0,LR,4,0,4,5,50,300,2400,160,None,0,0
+408,Mining: The Final Frontier,Deliver 2 Meteor Chunks,Village,0,LR,3,0,4,5,50,300,2700,180,Hunt a Volvidon,2400,120
+409,Wrath of the Rathian,Hunt a Rathian,Village,1,LR,0,0,4,2,50,400,3300,220,Wound Rathian's head,600,20
+410,Noise Violation,Hunt a Najarala,Village,0,LR,0,0,4,2,50,400,3600,240,Wound Najarala's tail,600,20
+411,Hunt-a-thon: Yian Kut-Ku,Hunt 2 before time expires or deliver a Paw Pass Ticket,Village,0,LR,4,0,4,102,50,400,3300,250,None,0,0
+412,Hunt-a-thon: Velocidrome,Hunt 2 before time expires or deliver a Paw Pass Ticket,Village,0,LR,4,0,4,2,50,200,1800,130,None,0,0
+413,The New Tenant,Hunt a Blangonga,Village,0,LR,0,0,4,3,50,400,3300,240,Slay 8 Blangos,1200,20
+414,Lagombi Lair,Hunt 2 Lagombi,Village,0,LR,0,0,4,103,50,400,3300,160,Deliver 1 Beast Tear,600,20
+415,Hungry Eyes,Hunt a Nargacuga,Village,1,LR,0,0,4,104,50,400,3600,250,Wound Nargacuga's wing,600,30
+416,Royal Pains,Hunt 2 Royal Ludroth,Village,0,LR,0,0,4,4,50,500,4500,290,Sever a Royal Ludroth's tail,600,30
+417,Peddling Practice,Deliver 10 Balmstone Pieces,Village,0,LR,3,0,4,104,50,300,2100,120,None,0,0
+418,Island Menace,Capture a Malfestio,Village,0,LR,2,0,4,6,50,500,4500,280,Mount and topple monster twice,600,30
+419,Deviled Legs,Hunt 2 Tetsucabras,Village,0,LR,0,0,4,6,50,500,4500,290,Deliver 1 Toad Tear,600,30
+420,Hunt-a-thon: Daimyo Hermitaur,Hunt 2 before time expires or deliver a Paw Pass Ticket,Village,0,LR,4,0,4,6,50,500,4500,320,None,0,0
+421,Marshlands Mission,Hunt a Shogun Ceanataur,Village,0,LR,0,0,4,7,50,400,3300,240,Slay 8 Ceanataurs,1500,20
+422,Serpentine Samba,Hunt a Najarala,Village,1,LR,0,0,4,7,50,400,3600,240,Deliver 1 Wyvern Tear,600,20
+423,Lurkin' in the Murk,Hunt 2 Khezu,Village,1,LR,0,0,4,7,50,600,5100,350,Deliver 1 Wyvern Tear,600,40
+424,Crustacean Infestation,Slay 10 Ceanataurs,Village,0,LR,1,0,4,7,50,200,1800,120,Break Shogun's shell,600,10
+425,Tumbling Troublemaker,Hunt a Volvidon,Village,0,LR,0,0,4,8,50,300,2400,120,None,0,0
+426,Crustacean Infatuation,Capture a Shogun Ceanataur,Village,1,LR,2,0,4,8,50,600,5100,340,Deliver 3 Carapaceon Brains,600,30
+427,Rocking the Uroktor,Slay 10 Uroktor,Village,0,LR,1,0,4,8,50,300,2100,120,None,0,0
+428,Great Ore Discovery,Deliver 15 pieces of Coal,Village,0,LR,3,0,4,8,50,300,2400,120,Deliver 1 Powderstone,3000,10
+429,Volcano Accounting,Earn 1000 Wycademy Points,Village,0,LR,3,0,4,8,50,300,3000,200,Hunt an Iodrome,1800,110
+501,The Dark Age,Hunt a Yian Garuga,Village,2,LR,0,0,5,1,50,400,3900,250,Deliver 1 Wyvern Tear,600,30
+502,Trifecta of Terror,Hunt 3 Nibelsnarf,Village,0,LR,4,0,5,5,50,600,5700,370,None,0,0
+503,Garuga of the Hills,Hunt a Yian Garuga,Village,0,LR,0,0,5,102,50,400,3900,250,Mount and topple monster twice,900,30
+504,The Thunderclaw Wyvern,Hunt an Astalos,Village,0,LR,0,0,5,2,50,600,5100,320,Wound Astalos's crest,900,30
+505,Fungus Fetch,Deliver 10 Unique Mushrooms or a Paw Pass Ticket,Village,0,LR,3,0,5,102,30,300,2700,180,Sever Rathian's tail,900,20
+506,Two Roars in the Snow,Hunt 2 Blangongas,Village,0,LR,0,0,5,3,50,600,6000,380,Mount and topple monster twice,900,40
+507,Hunt-a-thon: Khezu,Hunt 2 before time expires or deliver a Paw Pass Ticket,Village,0,LR,4,0,5,103,50,600,5100,370,None,0,0
+508,The Unwavering Colossus,Hunt a Gammoth,Village,0,LR,0,0,5,3,50,600,5100,320,Wound Gammoth's legs,900,30
+509,Lagiacrus Fuss,Hunt a Lagiacrus,Village,0,LR,0,0,5,104,50,500,4500,300,Mount and topple monster twice,900,30
+510,The Entrancing Water Dancer,Hunt a Mizutsune,Village,0,LR,0,0,5,104,50,600,5100,320,Wound Mizutsune's head,900,30
+511,The Fisherman's Fiend,Hunt a Lagiacrus,Village,1,LR,0,0,5,6,50,500,4500,300,Wound Lagiacrus's head,900,30
+512,Island Heat,Hunt a Rathalos,Village,0,LR,0,0,5,6,50,500,4500,300,None,0,0
+513,Double Vision,Hunt 2 Malfestio,Village,0,LR,0,0,5,6,50,600,5400,320,None,0,0
+514,Hunt-a-thon: Gypceros,Hunt 2 before time expires or deliver a Paw Pass Ticket,Village,0,LR,4,0,5,7,50,500,4200,290,None,0,0
+515,Behind Closed Ores,Slay 10 before time expires or deliver a Paw Pass Ticket,Village,0,LR,1,0,5,7,50,300,2700,180,Hunt a Najarala,3600,240
+516,"A King, Robed in Smoke",Hunt a Rathalos,Village,1,LR,0,0,5,8,50,500,4500,300,Sever Rathalos's tail,900,30
+517,Fight or Uragaan!,Hunt an Uragaan,Village,1,LR,0,0,5,8,50,500,4200,250,Wound Uragaan's jaw,900,30
+518,Great Knuckleballs o' Fire!,Hunt 2 Volvidons,Village,0,LR,0,0,5,8,50,500,4500,190,None,0,0
+519,Hunt-a-thon: Iodrome,Hunt 2 before time expires or deliver a Paw Pass Ticket,Village,0,LR,4,0,5,8,50,400,3600,190,Slay 20 Ioprey,1800,20
+520,Envoy to Disaster,Slay 10 Remobras,Village,0,LR,1,0,5,8,50,300,3000,160,None,0,0
+521,A Late Jurassic Excursion,Hunt all large monsters,Village,0,LR,5,0,5,101,50,600,5400,290,Earn 700 Wycademy Points,2100,30
+522,A Sandy Battle Royale,Hunt all large monsters,Village,0,LR,5,0,5,5,50,600,5100,290,Earn 700 Wycademy Points,2100,30
+523,Scientific Method,Hunt all large monsters,Village,0,LR,5,0,5,6,50,600,5400,320,Earn 700 Wycademy Points,2100,30
+601,The Scorching Blade,Hunt a Glavenus,Village,2,LR,0,0,6,1,50,600,5100,320,Sever Glavenus's tail,1200,30
+602,"Dark Wings, Dark Work",Hunt a Gore Magala,Village,1,LR,0,0,6,1,50,600,5100,310,Wound Gore Magala's feelers,1200,30
+603,Tuff Turf,Hunt a Zinogre,Village,1,LR,0,0,6,101,50,500,4800,300,Wound Zinogre's back,1200,30
+604,From Beyond the Sands,Hunt a Glavenus,Village,0,LR,0,0,6,5,50,600,5100,320,Mount and topple monster twice,1200,30
+605,Tigrex by the Tail,Hunt a Tigrex,Village,1,LR,0,0,6,5,50,600,5400,310,Mount and topple monster twice,1200,30
+606,A Thousand Scales of Dread,Hunt a Seregios,Village,1,LR,0,0,6,5,50,600,5400,370,Deliver 1 Wyvern Tear,600,40
+607,The Perilous Pair,Hunt a Rathalos and a Rathian,Village,0,LR,0,0,6,102,50,800,7200,420,None,0,0
+608,The Hero's Journey,Hunt a Tigrex,Village,0,LR,0,0,6,103,50,600,5400,310,Wound Tigrex's head,1200,30
+609,The Bellowing Zinogre,Hunt a Zinogre,Village,0,LR,0,0,6,104,50,500,4800,300,Mount and topple monster twice,1200,30
+610,Brachydios Mio!,Hunt a Brachydios,Village,1,LR,0,0,6,6,50,600,5700,370,Sever Brachydios's tail,1200,40
+611,Under the Gaze of Heaven,Hunt 2 Shogun Ceanataurs,Village,0,LR,0,0,6,7,50,600,6000,380,None,0,0
+612,Break the Brachydios,Capture a Brachydios,Village,0,LR,2,0,6,8,50,900,8700,520,Deliver 1 Wyvern Tear,600,50
+613,Night Terrors,Hunt all large monsters,Village,0,LR,5,0,6,102,50,600,5700,320,Earn 700 Wycademy Points,2400,30
+614,Bristly Fanged Beasts,Hunt all large monsters,Village,0,LR,5,0,6,103,50,600,5700,290,Earn 700 Wycademy Points,2400,30
+615,Drawing the Waterline,Hunt all large monsters,Village,0,LR,5,0,6,104,50,900,8400,460,Earn 700 Wycademy Points,2400,50
+616,The Cankerous Quagmire,Hunt all large monsters,Village,0,LR,5,0,6,7,50,700,6600,320,Earn 700 Wycademy Points,2400,30
+617,Volcano Triple Play,Hunt all large monsters,Village,0,LR,5,0,6,8,50,900,8100,340,Earn 700 Wycademy Points,2400,30
+618,It's Electric,Slay a Kirin,Village,0,LR,1,0,6,101,50,700,6600,350,None,0,0
+619,The White Brute,Slay a Kirin,Village,0,LR,1,0,6,3,50,700,6600,350,Place flag on mountain top,1200,40
+620,Stop the Wheel,Slay a Shagaru Magala,Village,0,LR,1,0,6,16,50,800,7200,400,Break Shagaru Magala's horns,1200,40
+621,The Fated Four,Hunt all large monsters,Village,0,LR,5,0,6,17,50,1900,18600,900,None,0,0
+622,Advanced: Fungus Fetchin',Deliver 20 Unique Mushrooms,Guild,0,HR,3,0,6,4,50,300,3000,250,None,0,0
+623,Advanced: Jurassic Treasure,Hunt a Glavenus,Guild,0,HR,0,0,6,101,50,800,7500,510,None,0,0
+624,Advanced: Sly Swooper,Hunt a Yian Garuga,Guild,0,HR,0,0,6,2,50,600,6000,400,None,0,0
+625,Advanced: Invoking Rath,Hunt a Rathalos and a Rathian,Guild,0,HR,0,0,6,2,50,1100,10800,660,None,0,0
+626,Advanced: Seismic Scares,Hunt 2 Tigrex,Guild,0,HR,0,0,6,3,50,1500,14700,780,None,0,0
+627,Advanced: Twinkle Toes,Hunt a Duramboros,Guild,0,HR,0,0,6,4,50,900,8100,490,None,0,0
+628,Advanced: Seltas Queen,Hunt a Seltas Queen,Guild,0,HR,0,0,6,13,50,700,6600,480,None,0,0
+629,Advanced: The Goliaths,Hunt all large monsters,Guild,0,HR,5,0,6,1,50,2100,20100,1040,Earn 700 Wycademy Points,3000,100
+630,Advanced: Barrage of Blue,Hunt all large monsters,Guild,0,HR,5,0,6,9,50,1000,9900,550,None,0,0
+631,Advanced: Seeing Red,Hunt all large monsters,Guild,0,HR,5,0,6,9,50,1300,12300,670,None,0,0
+632,Advanced: Nothing is Sacred,Slay a Shagaru Magala,Guild,0,HR,1,0,6,16,50,1100,10800,640,None,0,0
+633,Advanced: Snowtal Recall,Slay a Kushala Daora or repel it,Guild,0,HR,1,0,6,103,35,1200,12000,800,None,0,0
+634,Advanced: Invisible Thief,Slay a Chameleos or repel it,Guild,0,HR,1,0,6,2,35,1200,12000,800,None,0,0
+635,Advanced: Teostra's Return,Slay a Teostra or repel it,Guild,0,HR,1,0,6,8,35,1200,12000,800,None,0,0
+636,Advanced: Might is Right,Hunt all large monsters,Guild,0,HR,5,0,6,9,50,3000,30000,1580,None,0,0
+637,Advanced: State in Flux,Hunt all large monsters,Guild,0,HR,5,0,6,9,50,3300,32400,1790,None,0,0
+638,Advanced: The Field's a Stage,Hunt all large monsters,Guild,0,HR,5,0,6,9,50,2700,27000,1430,None,0,0
+639,Advanced: Wrath of Rath,Hunt a Silver Rathalos and a Gold Rathian,Guild,0,HR,0,0,6,9,50,2300,22800,1180,None,0,0
+640,Advanced: The Golden Pair,Hunt 2 Rajang,Guild,0,HR,0,0,6,9,50,1900,18600,880,None,0,0
+641,Advanced: Out of the Fry Pan,Hunt all large monsters,Guild,0,HR,5,0,6,9,50,2200,21600,1010,None,0,0
+10101,Harvest Tour: Jurassic Frontier,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,LR,3,0,1,1,50,0,12,0,None,0,0
+10102,Harvest Tour: Dunes,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,LR,3,0,1,5,50,0,12,0,None,0,0
+10103,Harvest Tour: Verdant Hills,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,LR,3,0,1,2,50,0,12,0,None,0,0
+10104,Harvest Tour: Arctic Ridge,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,LR,3,0,1,3,50,0,12,0,None,0,0
+10105,Harvest Tour: Misty Peaks,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,LR,3,0,1,4,50,0,12,0,None,0,0
+10106,Boot to the Head,Hunt a Great Maccao,Guild,0,LR,0,0,1,101,50,200,1800,100,Deliver 5 Abyssal Mushrooms,600,10
+10107,Tackling the Tetsucabra,Hunt a Tetsucabra,Guild,1,LR,0,0,1,1,50,500,4200,250,Mount and topple monster twice,600,30
+10108,Lost in the Jurassic Frontier,Hunt a Gypceros,Guild,1,LR,0,0,1,1,50,400,3600,240,Deliver 1 Wyvern Tear,600,20
+10109,Red-Faced Ruffians,Slay 20 Maccao,Guild,0,LR,1,0,1,1,50,200,1800,90,Hunt a Great Maccao,1800,100
+10110,A Fern is Forever,Deliver 20 Unique Ferns,Guild,0,LR,3,0,1,101,50,200,1200,90,Slay 8 Jaggi,900,10
+10111,Gendrome Roadblock,Hunt a Gendrome,Guild,0,LR,0,0,1,5,50,300,2100,130,Wound Gendrome's head,300,10
+10112,In Pursuit of the Sand Wyvern,Hunt a Cephadrome,Guild,0,LR,0,0,1,5,50,300,2700,140,Slay 5 Cephalos,900,10
+10113,Shells of Steel,Hunt a Daimyo Hermitaur,Guild,0,LR,0,0,1,5,50,500,4200,250,Break Daimyo's shell,600,30
+10114,Hermitaur Party,Slay 20 Hermitaurs,Guild,0,LR,1,0,1,5,50,300,2400,90,Deliver 1 Crab Pearl,600,10
+10115,Ingredient Hunter,Deliver 20 Tropical Berries,Guild,0,LR,3,0,1,5,50,200,1200,90,Deliver 3 Piscine Livers,900,10
+10116,Hunt Down the Velocidrome!,Hunt a Velocidrome,Guild,0,LR,0,0,1,102,50,200,1800,100,Wound Velocidrome's head,300,10
+10117,Local Threat,Hunt a Yian Kut-Ku,Guild,1,LR,0,0,1,102,50,300,3000,200,Mount and topple monster twice,600,20
+10118,Financial Focus on Fungus,Deliver 20 Unique Mushrooms,Guild,0,LR,3,0,1,2,50,200,1200,90,Deliver 5 Royal Rhinos,900,10
+10119,Farming Frustrations,Slay 20 Velociprey,Guild,0,LR,1,0,1,2,50,200,1800,90,Hunt a Velocidrome,1800,100
+10120,Snow with Occasional Lagombi,Hunt a Lagombi,Guild,1,LR,0,0,1,103,50,300,3000,140,Mount and topple monster twice,300,10
+10121,Preying on Giaprey,Slay 20 Giaprey,Guild,0,LR,1,0,1,3,50,200,1800,90,Deliver 2 White Livers,300,10
+10122,Special Home Brew,Deliver 20 Mountain Herbs,Guild,0,LR,3,0,1,3,50,200,1200,90,Deliver 1 Khezu Whelp,600,10
+10123,Bulldrome of the Peaks,Hunt a Bulldrome,Guild,0,LR,0,0,1,4,50,300,2100,120,Mount and topple monster twice,300,10
+10124,The Ingredient of Legend,Hunt an Arzuros,Guild,0,LR,0,0,1,104,50,300,2100,130,Deliver 5 Royal Honeys,600,10
+10125,Royal Spit Take,Hunt a Royal Ludroth,Guild,1,LR,0,0,1,4,50,500,4200,250,Wound R.Ludroth's mane,600,30
+10126,A Mother's Woes,Slay 10 Ludroth,Guild,0,LR,1,0,1,4,50,200,1500,90,Mount and topple monster twice,600,10
+10127,Jaggi Junket,Slay 20 Jaggi,Guild,0,LR,1,0,1,4,50,200,1800,90,Slay 8 Jaggia,1200,10
+10128,The Next Best Thing,Deliver 10 Balmstone Pieces,Guild,0,LR,3,0,1,104,50,200,1800,90,Deliver 5 Royal Rhinos,900,10
+10201,Harvest Tour: Deserted Island,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,LR,3,0,2,6,50,0,12,0,None,0,0
+10202,Harvest Tour: Marshlands,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,LR,3,0,2,7,50,0,12,0,None,0,0
+10203,Insomnia? Meet Hypnotism,Capture a Malfestio,Guild,0,LR,2,0,2,101,50,700,6300,340,Deliver 1 Wyvern Tear,600,30
+10204,Walk 'n Roll,Hunt a Volvidon,Guild,0,LR,0,0,2,1,50,400,3600,170,Wound Volvidon's back,600,20
+10205,Rocking Rhenoplos,Slay 10 before time expires or deliver a Paw Pass Ticket,Guild,0,LR,1,0,2,1,50,300,2100,150,Hunt a Yian Kut-Ku,3000,200
+10206,The Desert Gourmand,Hunt a Nibelsnarf,Guild,1,LR,0,0,2,5,50,500,4500,310,Mount and topple monster twice,900,30
+10207,Tongue-Tied,Capture a Volvidon,Guild,0,LR,2,0,2,5,50,500,4800,200,Deliver 1 Beast Tear,600,20
+10208,The Poison-fanged Duo,Hunt 2 Gendrome,Guild,0,LR,0,0,2,5,50,300,3000,210,Deliver 1 Wyvern Tear,600,20
+10209,Konchu Collector,Slay 20 Konchu,Guild,0,LR,1,0,2,5,50,200,1800,120,Hunt a Nibelsnarf,4500,310
+10210,Liver of Legend!,Deliver 8 Piscine Livers,Guild,0,LR,3,0,2,5,50,300,2700,150,Hunt a Cephadrome,2700,140
+10211,Noise Violation,Hunt a Najarala,Guild,1,LR,0,0,2,102,50,600,5700,330,Mount and topple monster twice,900,30
+10212,In Search of the Yian Garuga,Hunt a Yian Garuga,Guild,1,LR,0,0,2,2,50,700,6300,350,Sever Yian Garuga's tail,900,40
+10213,Finishing the Job,Hunt 2 Velocidrome,Guild,0,LR,0,0,2,2,50,300,2700,160,None,0,0
+10214,Fresh is Best,Slay 20 Bullfango,Guild,0,LR,1,0,2,102,50,300,2100,120,None,0,0
+10215,The Shadow in the Mountains,Hunt a Khezu,Guild,0,LR,0,0,2,103,50,500,4500,310,Wound Khezu's body,900,30
+10216,The New Tenant,Hunt a Blangonga,Guild,2,LR,0,0,2,3,50,600,5400,330,Wound Blangonga's fangs,900,30
+10217,Blango Slaying Tactics,Slay 20 Blangos,Guild,0,LR,1,0,2,3,50,300,2700,120,Deliver 20 Mountain Herbs,1200,10
+10218,Operation: Secure Specimen,Capture a Nargacuga,Guild,1,LR,2,0,2,4,50,800,7500,420,Deliver 1 Wyvern Tear,600,40
+10219,Royal Assassination,Hunt a Rathian,Guild,1,LR,0,0,2,4,50,600,5400,310,Deliver a Wyvern Egg,1200,30
+10220,Ahoy! Royal Ludroth!,Hunt 2 Royal Ludroth,Guild,0,LR,0,0,2,4,50,600,6000,400,None,0,0
+10221,Bye Bye Jaggia,Slay 20 Jaggia,Guild,0,LR,1,0,2,104,50,300,2100,120,Slay 12 Jaggi,1200,10
+10222,Malfestio Festival,Hunt a Malfestio,Guild,1,LR,0,0,2,6,50,500,4800,280,Wound Malfestio's tail,900,30
+10223,Wyvern of the Wind,Hunt a Nargacuga,Guild,0,LR,0,0,2,6,50,600,5700,350,None,0,0
+10224,Tetsucabra Bounty,Hunt a Tetsucabra,Guild,0,LR,0,0,2,6,50,500,4200,250,Wound Tetsucabra's back,900,30
+10225,Deserted Island Dustup,Hunt 2 Arzuros,Guild,0,LR,0,0,2,6,50,300,3000,210,Deliver 1 Beast Tear,600,20
+10226,Bnahabra Bloodbath,Slay 50 Bnahabra,Guild,0,LR,1,0,2,6,50,400,3600,150,Deliver 5 Silver Crickets,1200,20
+10227,Poisonous Pest,Hunt an Iodrome,Guild,0,LR,0,0,2,7,50,300,3000,160,Wound Iodrome's head,600,20
+10228,Pincer through the Sky,Hunt a Shogun Ceanataur,Guild,0,LR,0,0,2,7,50,600,5400,330,Mount and topple monster twice,900,30
+10229,Serpentine Samba,Hunt a Najarala,Guild,0,LR,0,0,2,7,50,600,5700,330,Wound Najarala's head,900,30
+10230,Ioprey Hunting,Slay 20 Ioprey,Guild,0,LR,1,0,2,7,50,200,1800,120,Deliver 1 Sootstone Ore,900,10
+10231,Attack of the Giant Bugs!,Slay 50 Vespoid,Guild,0,LR,1,0,2,7,50,400,3600,150,Slay 20 Hornetaur,1200,20
+10232,Collect to Combine,Deliver 20 Unique Mushrooms,Guild,0,LR,3,0,2,7,50,200,1500,120,Deliver 2 Goldenfish,1200,10
+10301,Harvest Tour: Volcano,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,LR,3,0,3,8,50,0,12,0,None,0,0
+10302,Flames of Glavenus Passion,Hunt a Glavenus,Guild,0,LR,0,0,3,101,50,900,8700,450,Wound Glavenus's head,1200,50
+10303,Tigrex by the Tail,Hunt a Tigrex,Guild,0,LR,0,0,3,101,50,900,9000,430,Deliver 1 Wyvern Tear,600,40
+10304,"Dark Wings, Dark Work",Hunt a Gore Magala,Guild,1,LR,0,0,3,1,50,900,8400,430,None,0,0
+10305,Fossilized Memories,Deliver 3 Eternal Fossils,Guild,0,LR,3,0,3,1,50,600,6000,350,None,0,0
+10306,A Thousand Scales of Dread,Hunt a Seregios,Guild,1,LR,0,0,3,5,50,900,9000,520,Break Seregios's horn,1200,50
+10307,A Shocking Scoundrel,Hunt an Astalos,Guild,2,LR,0,0,3,102,50,900,8700,450,Mount and topple monster twice,1200,50
+10308,The King's Domain,Hunt a Rathalos,Guild,0,LR,0,0,3,2,50,800,7500,420,None,0,0
+10309,Fury Run Afoul,Hunt a Gammoth,Guild,1,LR,0,0,3,103,50,900,8700,450,Deliver 1 Beast Tear,600,50
+10310,Lagiacrus Lethargy,Hunt a Lagiacrus,Guild,0,LR,0,0,3,4,50,800,7500,420,Sever Lagiacrus's tail,1200,40
+10311,Moonlit Bubble Bath,Hunt a Mizutsune,Guild,1,LR,0,0,3,104,50,900,8700,450,Mount and topple monster twice,1200,50
+10312,Topple the Monarch,Hunt a Zinogre,Guild,0,LR,0,0,3,4,50,900,8100,420,Deliver 1 Wyvern Tear,600,40
+10313,Lagiacrushed,Hunt a Lagiacrus,Guild,0,LR,0,0,3,6,50,800,7500,420,None,0,0
+10314,Tuff Turf,Capture a Zinogre,Guild,0,LR,2,0,3,6,50,1100,10800,500,None,0,0
+10315,Isle About that Bass,Hunt a Brachydios,Guild,0,LR,0,0,3,6,50,900,9000,520,Mount and topple monster twice,1200,50
+10316,Heaven and Earth,Hunt a Rathalos and a Rathian,Guild,1,LR,0,0,3,6,50,1000,9300,580,Deliver 1 Wyvern Tear,600,60
+10317,Fro Shizzle,Hunt an Astalos,Guild,0,LR,0,0,3,7,50,900,8700,450,Deliver 1 Wyvern Tear,600,50
+10318,Bladed Glavenus,Capture a Glavenus,Guild,1,LR,2,0,3,8,50,1200,11400,540,None,0,0
+10319,Fight or Uragaan!,Hunt an Uragaan,Guild,0,LR,0,0,3,8,50,700,6900,350,Sever Uragaan's tail,1200,40
+10320,The Shogun's Encampment,Hunt 2 Shogun Ceanataurs,Guild,0,LR,0,0,3,8,50,800,7800,530,Deliver 1 Crab Pearl,600,50
+10321,Crustacean Infestation,Slay 20 Ceanataurs,Guild,0,LR,1,0,3,8,50,500,4500,200,Wound Uragaan's jaw,1200,20
+10322,Scavengers United,Slay a total of 20 Remobra or Uroktor,Guild,0,LR,1,0,3,8,50,600,5100,200,Wound Brachydios's arms,1200,20
+10323,More Coal Please,Deliver 20 pieces of Coal,Guild,0,LR,3,0,3,8,50,500,4200,200,Deliver 1 Powderstone,3000,20
+10324,An Early Jurassic Excursion,Hunt all large monsters,Guild,0,LR,5,0,3,1,50,800,7500,390,Earn 700 Wycademy Points,1500,40
+10325,Wyvern Sand Runners,Hunt all large monsters,Guild,0,LR,5,0,3,5,50,800,7800,460,Earn 700 Wycademy Points,1500,50
+10326,"Zinogre, Bearly Fazed",Hunt all large monsters,Guild,0,LR,5,0,3,6,50,800,7200,390,Earn 700 Wycademy Points,1500,40
+10327,Making it Safe for Swine,Hunt all large monsters,Guild,0,LR,5,0,3,7,50,900,8400,410,Earn 700 Wycademy Points,1500,40
+10328,Rumble in the Volcano,Hunt all large monsters,Guild,0,LR,5,0,3,8,50,900,9000,480,Earn 700 Wycademy Points,1500,50
+10329,It's Electric,Slay a Kirin,Guild,0,LR,1,0,3,1,50,1100,10200,490,None,0,0
+10330,The White Brute,Slay a Kirin,Guild,0,LR,1,0,3,103,50,1100,10200,490,Place flag on mountain top,1200,50
+10331,The Frozen Dictator,Slay a Kushala Daora or repel it,Guild,0,LR,1,0,3,103,35,1300,12900,700,Wound Kushala Daora's wing,1200,70
+10332,The Elder Dragon of Mist,Slay a Chameleos or repel it,Guild,0,LR,1,0,3,2,35,1300,12900,700,Sever Chameleos's tail,1200,70
+10333,Emperor of Flame,Slay a Teostra or repel it,Guild,0,LR,1,0,3,8,35,1300,12900,700,Wound Teostra's head,1200,70
+10334,Stop the Wheel,Slay a Shagaru Magala,Guild,0,LR,1,0,3,16,50,1200,11100,560,Wound S. Magala's wingarms,1200,60
+10335,Two-headed Carcass,Repel Nakarkos,Guild,2,LR,1,0,3,21,50,1500,15000,840,Break Nakarkos's outer shell,1200,80
+10401,Harvest Tour: A. Steppe,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,HR,3,0,4,11,50,0,12,0,None,0,0
+10402,Harvest Tour: Primal Forest,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,HR,3,0,4,13,50,0,12,0,None,0,0
+10403,Harvest Tour: Jurassic Frontier,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,HR,3,0,4,101,50,0,12,0,None,0,0
+10404,Harvest Tour: Dunes,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,HR,3,0,4,5,50,0,12,0,None,0,0
+10405,Harvest Tour: Verdant Hills,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,HR,3,0,4,102,50,0,12,0,None,0,0
+10406,Harvest Tour: Arctic Ridge,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,HR,3,0,4,103,50,0,12,0,None,0,0
+10407,Harvest Tour: Misty Peaks,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,HR,3,0,4,104,50,0,12,0,None,0,0
+10408,Swing into Action,Hunt a Kecha Wacha,Guild,1,HR,0,0,4,11,50,600,5100,330,Mount and topple monster twice,1200,30
+10409,Ruining the Ruins,Hunt a Yian Kut-Ku,Guild,0,HR,0,0,4,11,50,500,4200,280,Deliver 1 Large Wyvern Tear,2700,30
+10410,Bag the Bounding Bandit,Capture a Great Maccao,Guild,0,HR,2,0,4,11,50,400,3600,170,Slay 12 Maccao,1500,20
+10411,Jaggi of the Steppe,Slay a total of 20 Jaggia or Jaggi,Guild,0,HR,1,0,4,11,50,300,2700,120,Wound Kecha Wacha's ears,1200,10
+10412,Ancestral Steppe Fungus Run,Deliver 20 Unique Mushrooms,Guild,0,HR,3,0,4,11,50,300,2100,120,Hunt a Seltas,3000,160
+10413,Bug Appétit,Hunt a Seltas,Guild,1,HR,0,0,4,13,50,300,3000,160,Slay 10 Konchu,900,20
+10414,Gendrome Roadblock,Hunt a Gendrome,Guild,0,HR,0,0,4,13,50,300,3000,180,Slay 12 Genprey,1500,20
+10415,Lost in the Primal Forest,Hunt a Gypceros,Guild,0,HR,0,0,4,13,50,600,5100,330,Mount and topple monster twice,1200,30
+10416,Hunt Down the Velocidrome!,Hunt a Velocidrome,Guild,0,HR,0,0,4,13,50,300,2700,140,Slay 12 Velociprey,1500,10
+10417,Poison Paralysis Pinch,Slay a total of 20 Ioprey or Genprey,Guild,0,HR,1,0,4,13,50,300,2700,120,Deliver 5 Slagtoth Oils,600,10
+10418,Crystal Bone Collector,Deliver 10 Crystal Bones,Guild,0,HR,3,0,4,13,50,300,2400,120,Slay 10 Ioprey,1200,10
+10419,Hair of the Dog,Deliver 10 Slagtoth Oils,Guild,0,HR,3,0,4,13,50,300,2700,120,Deliver 1 Drone Substance,600,10
+10420,Tackling the Tetsucabra,Hunt a Tetsucabra,Guild,0,HR,0,0,4,101,50,600,6000,350,Deliver 3 Ancient Berries,600,40
+10421,So Notable: Great Maccao,Hunt 2 Great Maccao,Guild,0,HR,0,0,4,1,50,400,3900,220,Wound Great Maccao's head,1200,20
+10422,The Land Sharq,Hunt a Cephadrome,Guild,0,HR,0,0,4,5,50,400,3900,200,Deliver 5 Piscine Livers,1500,20
+10423,Shells of Steel,Hunt a Daimyo Hermitaur,Guild,1,HR,0,0,4,5,50,600,6000,350,Slay 10 Hermitaurs,1800,40
+10424,Birds of a Feather,Hunt a Yian Kut-Ku and a Gypceros,Guild,1,HR,0,0,4,102,50,700,6600,490,Deliver 1 Large Wyvern Tear,2700,50
+10425,Bullfango Brigade,Slay 20 Bullfango,Guild,0,HR,1,0,4,2,50,300,3000,120,Hunt a Gypceros,5100,330
+10426,Delicious White Livers,Deliver 3 White Livers,Guild,0,HR,3,0,4,2,50,300,2100,120,Slay 6 Kelbi,600,10
+10427,The Bulldrome Charges,Hunt a Bulldrome,Guild,0,HR,0,0,4,103,50,300,3000,160,Slay 10 Giaprey,1200,20
+10428,Snow with Occasional Lagombi,Hunt a Lagombi,Guild,0,HR,0,0,4,3,50,500,4200,200,Slay 8 Anteka,900,20
+10429,Arzuros Encroaches,Hunt an Arzuros,Guild,0,HR,0,0,4,4,50,300,3000,180,Deliver 3 White Livers,300,20
+10430,Royal Spit Take,Hunt a Royal Ludroth,Guild,0,HR,0,0,4,104,50,600,6000,350,Slay 12 Ludroth,1800,40
+10431,Netting Neopterons,Slay 50 Bnahabra,Guild,0,HR,1,0,4,104,50,500,4500,160,Slay 15 Altaroth,1500,20
+10432,Clash of Rivals,Slay a total of 30 Bullfango or Rhenoplos,Guild,0,HR,1,0,4,15,50,500,4500,150,None,0,0
+10433,A Powerful Team,Hunt all large monsters,Guild,0,HR,5,0,4,9,50,1100,10200,550,None,0,0
+10501,Harvest Tour: Frozen Seaway,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,HR,3,0,5,14,50,0,12,0,None,0,0
+10502,Harvest Tour: Volcanic Hollow,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,HR,3,0,5,12,50,0,12,0,None,0,0
+10503,Harvest Tour: Deserted Island,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,HR,3,0,5,6,50,0,12,0,None,0,0
+10504,Harvest Tour: Marshlands,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,HR,3,0,5,7,50,0,12,0,None,0,0
+10505,Harvest Tour: Volcano,Survive until time expires or deliver a Paw Pass Ticket,Guild,0,HR,3,0,5,8,50,0,12,0,None,0,0
+10506,So Notable: Kecha Wacha,Hunt 2 Kecha Wacha,Guild,0,HR,0,0,5,11,50,800,7200,530,Deliver 1 Large Beast Tear,1800,50
+10507,Ancestral Steppe Accounting,Earn 4000 Wycademy Points,Guild,0,HR,3,0,5,11,50,600,6000,300,Slay 15 Altaroth,1500,30
+10508,Dragon Lady,Hunt a Rathian,Guild,0,HR,0,0,5,13,50,800,7500,430,Sever Rathian's tail,1500,40
+10509,The Ioprey Leader,Hunt an Iodrome,Guild,0,HR,0,0,5,13,50,500,4200,220,Slay 15 Ioprey,1800,20
+10510,The Intelligent Malfestio,Hunt a Malfestio,Guild,1,HR,0,0,5,13,50,700,6900,400,Wound Malfestio's head & wings,1500,40
+10511,Serpentine Samba,Hunt a Najarala,Guild,1,HR,0,0,5,13,50,900,8100,470,Wound Najarala's back,1500,50
+10512,Spotted Beauty,Hunt 2 Gendrome,Guild,0,HR,0,0,5,13,50,500,4200,290,None,0,0
+10513,Primal Forest Accounting,Earn 4000 Wycademy Points,Guild,0,HR,3,0,5,13,50,600,6000,300,Slay 15 Kelbi,900,30
+10514,Fin Finder,Hunt a Zamtrios,Guild,1,HR,0,0,5,14,50,700,6900,400,Deliver 5 Monster Guts,600,40
+10515,The Walls Have Eyes,Hunt a Khezu,Guild,0,HR,0,0,5,14,50,700,6300,430,None,0,0
+10516,Must Love Lagombi,Hunt 2 Lagombi,Guild,0,HR,0,0,5,14,50,600,6000,320,Slay 10 Zamite,3000,30
+10517,Zamite Fight,Slay 20 Zamite,Guild,0,HR,1,0,5,14,50,500,4500,180,Hunt a Tetsucabra,6000,350
+10518,Stone-cold Stones,Deliver 10 Bloodstones,Guild,0,HR,3,0,5,14,50,300,3000,180,Wound Zamtrios's top fin,1500,20
+10519,Liver and Let Die,Deliver 5 Monster Guts,Guild,0,HR,3,0,5,14,50,400,3600,180,None,0,0
+10520,Fight or Uragaan!,Hunt an Uragaan,Guild,0,HR,0,0,5,12,50,1000,9600,500,Slay 10 Rhenoplos,1500,50
+10521,Worst. Trip. Ever!,Hunt a Yian Garuga,Guild,1,HR,0,0,5,12,50,900,9000,500,Wound Yian Garuga's wingtalon,1500,50
+10522,Tetsucabra Bounty,Hunt a Tetsucabra,Guild,0,HR,0,0,5,12,50,600,6000,350,Slay 10 Remobras,3000,40
+10523,Close Coal,Deliver 20 pieces of Coal,Guild,0,HR,3,0,5,12,50,500,4200,200,Wound Yian Garuga's head,1500,20
+10524,Nargacuga Throwdown,Hunt a Nargacuga,Guild,0,HR,0,0,5,101,50,900,8100,500,Sever Nargacuga's tail,1500,50
+10525,Insomnia? Meet Hypnotism x 2,Hunt 2 Malfestio,Guild,0,HR,0,0,5,1,50,1000,9900,640,Deliver 1 Large Wyvern Tear,2700,60
+10526,The Desert Gourmand,Hunt a Nibelsnarf,Guild,0,HR,0,0,5,5,50,700,6300,430,Deliver 5 Apceros Livers,1200,40
+10527,Line in the Sand,Hunt 2 Cephadrome,Guild,0,HR,0,0,5,5,50,600,5700,320,None,0,0
+10528,Wrath of the Rathian,Capture a Rathian,Guild,0,HR,2,0,5,102,50,1000,9900,520,Mount and topple monster twice,1500,50
+10529,Twin Velocidrome,Hunt 2 Velocidrome,Guild,0,HR,0,0,5,2,50,400,3900,220,None,0,0
+10530,The New Tenant,Hunt a Blangonga,Guild,0,HR,0,0,5,3,50,800,7500,470,Slay 10 Blangos,2100,50
+10531,A Plesioth in the Misty Peaks,Hunt a Plesioth,Guild,2,HR,0,0,5,104,50,800,7500,430,Wound Plesioth's top fin,1500,40
+10532,Awful Guest,Hunt a Plesioth,Guild,0,HR,0,0,5,6,50,800,7500,430,None,0,0
+10533,Poisonous Pair,Hunt 2 Iodrome,Guild,0,HR,0,0,5,7,50,600,6000,350,None,0,0
+10534,Attack of the Giant Bugs!,Slay 50 Vespoid,Guild,0,HR,1,0,5,7,50,600,5100,250,Slay 20 Hornetaur,1800,30
+10535,You Caught This? I Caught This,Hunt a Lavasioth,Guild,1,HR,0,0,5,8,50,800,7500,470,Mount and topple monster twice,1500,50
+10536,Tumbling Troublemaker,Hunt a Volvidon,Guild,0,HR,0,0,5,8,50,600,5100,240,Deliver 1 Powderstone,3000,20
+10537,Shogun in the Flames,Hunt a Shogun Ceanataur,Guild,0,HR,0,0,5,8,50,800,7500,470,Break Shogun's claws,1500,50
+10538,The Most Dangerous Game,Slay 30 Konchu,Guild,0,HR,1,0,5,9,50,400,3900,220,Hunt a Volvidon,5100,240
+10539,Status: Effected,Hunt all large monsters,Guild,0,HR,5,0,5,101,50,1500,14700,800,Earn 1500 Wycademy Points,3000,80
+10540,Desert Brawlers,Hunt all large monsters,Guild,0,HR,5,0,5,5,50,1400,13800,850,Earn 1500 Wycademy Points,3000,90
+10541,The Hunter Games,Hunt all large monsters,Guild,0,HR,5,0,5,15,50,1700,16500,980,None,0,0
+10542,"Hunt, Sweat, and Tears",Hunt all large monsters,Guild,0,HR,5,0,5,9,50,1500,14400,730,None,0,0
+10601,The Lightning Crown,Hunt an Astalos,Guild,1,HR,0,0,6,11,50,1200,12000,630,Deliver 1 Large Wyvern Tear,2700,60
+10602,What a Girl Wants,Hunt a Tigrex,Guild,0,HR,0,0,6,11,50,1300,12600,610,Sever a Tigrex's tail,1800,60
+10603,Rathalos Run,Hunt a Rathalos,Guild,0,HR,0,0,6,11,50,1100,10500,590,Wound Rathalos's head & wings,1800,60
+10604,Watch Your Steppe,Hunt a Gore Magala,Guild,0,HR,0,0,6,11,50,1200,11700,610,None,0,0
+10605,Bug Buffet,Hunt a Seltas Queen,Guild,1,HR,0,0,6,13,50,1100,10500,590,Wound Seltas Queen's tail,1800,60
+10606,A Bewitching Dance,Hunt a Mizutsune,Guild,2,HR,0,0,6,13,50,1200,12000,630,Deliver 1 Large Wyvern Tear,2700,60
+10607,Dread Locked,Hunt a Gore Magala,Guild,0,HR,0,0,6,13,50,1200,11700,610,Mount and topple monster twice,1800,60
+10608,The Unshakable Mountain God,Hunt a Gammoth,Guild,2,HR,0,0,6,14,50,1200,12000,630,Deliver 5 Popo Tongues,300,60
+10609,Topple the Monarch,Hunt a Zinogre,Guild,0,HR,0,0,6,14,50,1200,11400,590,Sever Zinogre's tail,1800,60
+10610,Bedevil a Deviljho,Hunt a Deviljho,Guild,0,HR,0,0,6,14,50,1500,15000,680,Wound Deviljho's head,1800,70
+10611,Frozen Seaway Accounting,Earn 4000 Wycademy Points,Guild,0,HR,3,0,6,14,50,900,8100,450,Slay 15 Zamite,4500,50
+10612,Master of the Molten Deep,Hunt an Agnaktor,Guild,1,HR,0,0,6,12,50,1200,11400,610,Slay 10 Uroktor,3000,60
+10613,Duel in the Volcanic Hollow,Hunt a Glavenus,Guild,1,HR,0,0,6,12,50,1200,12000,630,Sever Glavenus's tail,1800,60
+10614,Volcanic Hollow Accounting,Earn 4000 Wycademy Points,Guild,0,HR,3,0,6,12,50,900,8100,450,Slay 15 Slagtoth,1500,50
+10615,Bug Bite,Capture a Seltas Queen,Guild,0,HR,2,0,6,101,50,1400,13800,710,Hunt a Seltas,3000,160
+10616,Heaven and Earth,Hunt a Rathalos and a Rathian,Guild,0,HR,0,0,6,1,50,1300,12600,820,None,0,0
+10617,From Beyond the Sands,Hunt a Glavenus,Guild,0,HR,0,0,6,5,50,1200,12000,630,Deliver 1 Large Wyvern Tear,2700,60
+10618,Legend of the Monkey King,Hunt a Rajang,Guild,0,HR,0,0,6,5,50,1500,15000,680,Wound Rajang's tail,1800,70
+10619,Astalos Territory,Hunt an Astalos,Guild,0,HR,0,0,6,2,50,1200,12000,630,Wound Astalos's back,1800,60
+10620,Lord of the Skies,Hunt a Rathalos,Guild,0,HR,0,0,6,2,50,1100,10500,590,Hunt a Velocidrome,2700,140
+10621,The Rajang in the Snow,Hunt a Rajang,Guild,0,HR,0,0,6,3,50,1500,15000,680,Mount and topple monster twice,1800,70
+10622,Fury Run Afoul,Hunt a Gammoth,Guild,0,HR,0,0,6,103,50,1200,12000,630,Wound Gammoth's head,1800,60
+10623,Bl-Bl-Blangongas!,Hunt 3 Blangongas,Guild,0,HR,4,0,6,103,50,1700,16200,780,Deliver 1 Territorial Dung+,2700,80
+10624,Surrounded by Bubbles,Hunt a Mizutsune,Guild,0,HR,0,0,6,4,50,1200,12000,630,Wound Mizutsune's claws,1800,60
+10625,The Moving Mountain,Capture a Duramboros,Guild,0,HR,2,0,6,104,50,1700,16500,730,Deliver 1 Large Wyvern Tear,2700,70
+10626,The Fisherman's Fiend,Hunt a Lagiacrus,Guild,0,HR,0,0,6,6,50,1100,10500,590,Deliver 1 Large Wyvern Tear,2700,60
+10627,Open Season for Jaggia,Slay 25 Jaggia,Guild,0,HR,1,0,6,6,50,500,4800,240,Hunt a Deviljho,15000,680
+10628,For Whom the Gong Tolls,Hunt a Duramboros,Guild,1,HR,0,0,6,7,50,1300,12600,610,Wound Duramboros's hump,1800,60
+10629,Quartz Rivalry,Deliver 2 Quartz Ores,Guild,0,HR,3,0,6,7,50,600,6000,400,Slay 12 Ceanataurs,3300,40
+10630,We Can Dig It,Capture an Agnaktor,Guild,0,HR,2,0,6,8,50,1500,15000,730,Wound Agnaktor's head,1800,70
+10631,Coal Hearted,Deliver 10 pieces of Coal or a Paw Pass Ticket,Guild,0,HR,3,0,6,8,30,500,4500,300,Break Rajang's horns,1800,30
+10632,River of Fire,Hunt 2 Lavasioth,Guild,0,HR,0,0,6,8,50,1100,10500,750,Deliver 1 Large Wyvern Tear,2700,80
+10633,Dances with Wyverns,Hunt all large monsters,Guild,0,HR,5,0,6,11,50,1700,16800,940,Earn 1500 Wycademy Points,4200,90
+10634,Bugging Out,"Hunt all large monsters, not including Seltas",Guild,0,HR,5,0,6,13,50,2100,20700,1130,Earn 1500 Wycademy Points,4200,110
+10635,A Three Hour Tour,Hunt all large monsters,Guild,0,HR,5,0,6,14,50,1800,17700,1020,Earn 1500 Wycademy Points,4200,100
+10636,A Hollow Defense,Hunt all large monsters,Guild,0,HR,5,0,6,12,50,1900,18900,1040,Earn 1500 Wycademy Points,4200,100
+10637,Wild Gunman,Hunt all large monsters,Guild,0,HR,5,0,6,6,50,1900,18300,1060,Earn 1500 Wycademy Points,4200,110
+10638,Marshlands Rag,Hunt all large monsters,Guild,0,HR,5,0,6,7,50,1700,16800,870,Earn 1500 Wycademy Points,4200,90
+10639,Firefight to the Finish!,Hunt all large monsters,Guild,0,HR,5,0,6,8,50,1900,18600,1090,Earn 1500 Wycademy Points,4200,110
+10640,At the Slayground,Hunt all large monsters,Guild,0,HR,5,0,6,10,50,2200,21600,1120,None,0,0
+10641,It's Electric,Slay a Kirin,Guild,0,HR,1,0,6,1,50,1500,14400,700,None,0,0
+10642,The White Brute,Slay a Kirin,Guild,0,HR,1,0,6,103,50,1500,14400,700,Place flag on mountain top,1800,70
+10643,A Scenic Locale,Slay a Kirin,Guild,0,HR,1,0,6,17,50,1500,14400,700,None,0,0
+10644,Miasma Attack,Hunt a Gypceros,Guild,0,HR,0,0,6,11,50,700,6300,400,Wound Gypceros's crest,2100,40
+10645,Stop the Wacha!,Hunt a Kecha Wacha,Guild,0,HR,0,0,6,11,50,700,6300,400,Wound Kecha Wacha's claws & ears,2100,40
+10646,We Are Not Amused,Hunt a Rathian,Guild,0,HR,0,0,6,13,50,900,9000,520,Wound Rathian's wing & tail,2100,50
+10647,Zamtrios Fight!,Hunt a Zamtrios,Guild,0,HR,0,0,6,14,50,900,8400,480,Wound Zamtrios's head & top fin,2100,50
+10648,The Frog of War,Hunt a Tetsucabra,Guild,0,HR,0,0,6,12,50,800,7200,420,Wound Tetsucabra's jaw & hind leg,2100,40
+10649,Triple Toady Terror,Hunt 3 Tetsucabras,Guild,0,HR,4,0,6,12,50,1600,15900,740,Deliver 1 Large Toad Tear,1800,70
+10650,The Coal Still Burns,Deliver 30 pieces of Coal,Guild,0,HR,3,0,6,12,50,600,6000,320,Hunt an Uragaan,11700,600
+10651,Woe Malfestio,Hunt a Malfestio,Guild,0,HR,0,0,6,1,50,900,8400,480,Wound Malfestio's head & wings,2100,50
+10652,Born of Darkness,Hunt a Nargacuga,Guild,0,HR,0,0,6,101,50,1000,9900,600,Wound Nargacuga's head & cutwing,2100,60
+10653,Nibeling on Apples,Hunt a Nibelsnarf,Guild,0,HR,0,0,6,5,50,800,7800,520,Wound Nibelsnarf's front legs,2100,50
+10654,Warning: Hyper Yian Garuga!,Hunt a Yian Garuga,Guild,0,HR,0,0,6,2,50,1100,10800,600,Wound Yian Garuga's head & back,2100,60
+10655,Hyper for Holes,Hunt a Blangonga,Guild,0,HR,0,0,6,103,50,900,9000,560,Wound Blangonga's fangs & tail,2100,60
+10656,The Plesioth Adventure,Hunt a Plesioth,Guild,0,HR,0,0,6,4,50,900,9000,520,Wound Plesioth's head & top fin,2100,50
+10657,Daimyo of the Deserted Island,Hunt a Daimyo Hermitaur,Guild,0,HR,0,0,6,6,50,800,7200,420,Break Daimyo's claws & shell,2100,40
+10658,Where the Wild Manes Are,Hunt a Royal Ludroth,Guild,0,HR,0,0,6,6,50,800,7200,420,Wound Royal Ludroth's mane & tail,2100,40
+10659,Hyper Investigation,Hunt a Yian Kut-Ku,Guild,0,HR,0,0,6,7,50,600,5100,340,Wound Yian Kut-Ku's head,2100,30
+10660,The Khezu and the Shadow,Hunt a Khezu,Guild,0,HR,0,0,6,7,50,800,7800,520,Wound Khezu's head & body,2100,50
+10661,Bring On the Shogun,Hunt a Shogun Ceanataur,Guild,0,HR,0,0,6,7,50,900,9000,560,Break Shogun's claws & shell,2100,60
+10662,Unnerving Najarala,Hunt a Najarala,Guild,0,HR,0,0,6,7,50,1000,9900,560,Wound Najarala's head & tail,2100,60
+10663,Eruption Embodied,Hunt an Uragaan,Guild,0,HR,0,0,6,8,50,1200,11700,600,Wound Uragaan's jaw & tail,2100,60
+10664,The Magma's Rage,Hunt a Lavasioth,Guild,0,HR,0,0,6,8,50,900,9000,560,Wound Lavasioth's head & top fin,2100,60
+10665,Minion Audition Imposition,Hunt all large monsters,Guild,0,HR,5,0,6,7,50,1200,12000,630,Mount and topple monster 4 times,2100,60
+10701,Stop the Wheel,Slay a Shagaru Magala,Guild,1,HR,1,0,7,16,50,1600,15600,800,Mount and topple monster twice,2100,80
+10702,A Gathering of Wyverns,Hunt an Astalos and a Rathian,Guild,1,HR,0,0,7,11,50,1400,13800,850,Deliver 1 Large Wyvern Tear,2700,90
+10703,A Song of White and Lapis,Hunt a Mizutsune and a Malfestio,Guild,1,HR,0,0,7,13,50,1400,13500,820,Deliver 1 Large Wyvern Tear,2700,80
+10704,A Cold Set of Armor,Hunt a Gammoth and a Zamtrios,Guild,1,HR,0,0,7,14,50,1400,13500,820,Earn 500 Wycademy Points,1800,80
+10705,Rocked and Rolled,Hunt a Brachydios,Guild,1,HR,0,0,7,12,50,1300,12600,740,None,0,0
+10706,So Notable: Seregios,Capture a Seregios,Guild,0,HR,2,0,7,12,50,1700,16500,890,Wound Seregios's wingtalon,2100,90
+10707,Hammer vs. Blade,Hunt a Glavenus and an Uragaan,Guild,1,HR,0,0,7,12,50,1600,15300,900,Deliver 1 Large Wyvern Tear,2700,90
+10708,A Roar to the Heavens,Hunt a Zinogre and a Tigrex,Guild,0,HR,0,0,7,1,50,1700,16800,960,Deliver 1 Large Wyvern Tear,2700,100
+10709,The Hapless Bodyguard,Hunt 3 Rajang,Guild,0,HR,4,0,7,101,50,2300,22500,1120,Deliver 1 Large Beast Tear,1800,110
+10710,Seer of Swords,Hunt a Seregios,Guild,2,HR,0,0,7,5,50,1300,12600,740,Mount and topple monster twice,2100,70
+10711,The Yukumo Gal Special,Hunt 2 Zinogres,Guild,0,HR,0,0,7,104,50,1700,16200,940,None,0,0
+10712,Repaying the Favor,Hunt a Brachydios,Guild,0,HR,0,0,7,6,50,1300,12600,740,Wound Brachydios's head,2100,70
+10713,You Bet Your Life,Hunt a Deviljho and a Rajang,Guild,0,HR,0,0,7,8,50,2100,21000,1090,None,0,0
+10714,Wyvern's Way,Hunt a Yian Garuga and a Tigrex,Guild,0,HR,0,0,7,10,50,1600,15300,890,None,0,0
+10715,Bewitching Heat,Hunt a Glavenus and a Mizutsune,Guild,0,HR,0,0,7,17,50,1700,16800,1010,None,0,0
+10716,The Mountain God's Lightning,Hunt an Astalos and a Gammoth,Guild,0,HR,0,0,7,17,50,1700,16800,1010,None,0,0
+10717,A Man's Arena is His Castle,Hunt all large monsters,Guild,0,HR,5,0,7,9,50,2200,21600,1190,None,0,0
+10718,The Hunter Games,"Hunt all large monsters, not including Seltas",Guild,0,HR,5,0,7,15,50,2600,25200,1400,None,0,0
+10719,The Flames of War,Hunt all large monsters,Guild,0,HR,5,0,7,9,50,3700,36900,1980,None,0,0
+10720,A Shocking Revelation!,Hunt all large monsters,Guild,0,HR,5,0,7,9,50,3900,38700,2040,None,0,0
+10721,The Gathering Storm,Hunt all large monsters,Guild,0,HR,5,0,7,16,50,3200,31500,1720,None,0,0
+10722,Hellfire Star,Slay Nakarkos,Guild,2,HR,1,0,7,21,50,2100,21000,1200,None,0,0
+10723,Putting the Gore in Magala,Hunt a Gore Magala,Guild,0,HR,0,0,7,11,50,1500,14100,730,Wound G.Magala's feelers & arm,2400,70
+10724,"Tigrex, Tigrex, Burning Bright",Hunt a Tigrex,Guild,0,HR,0,0,7,14,50,1600,15300,730,Wound Tigrex's head & claw,2400,70
+10725,A Thousand Blades of Wrath,Hunt a Seregios,Guild,0,HR,0,0,7,12,50,1600,15300,890,Wound Seregios's horn & leg,2400,90
+10726,A Fiery Temper,Hunt a Rathalos,Guild,0,HR,0,0,7,12,50,1300,12600,710,Wound Rathalos's wings & tail,2400,70
+10727,The Unassailable Seltas Queen,Hunt a Seltas Queen,Guild,0,HR,0,0,7,101,50,1300,12600,710,Wound Seltas Queen's head & leg,2400,70
+10728,Savage Sword of the Desert,Hunt a Glavenus,Guild,0,HR,0,0,7,5,50,1500,14400,760,Wound Glavenus's head & tail,2400,80
+10729,Wyvernlit Evening,Hunt an Astalos,Guild,0,HR,0,0,7,102,50,1500,14400,760,Wound Astalos's crest & back,2400,80
+10730,Wyverns All Around Us,Hunt a Rathalos and a Rathian,Guild,0,HR,0,0,7,2,50,1600,15300,980,Deliver 1 Large Wyvern Tear,2700,100
+10731,"Wild Gods, Calm Rangers",Hunt a Gammoth,Guild,0,HR,0,0,7,3,50,1500,14400,760,Wound Gammoth's head & legs,2400,80
+10732,Into the Maelstrom,Hunt a Lagiacrus,Guild,0,HR,0,0,7,4,50,1300,12600,710,Wound Lagiacrus's head & back,2400,70
+10733,The Lithe and Unbreaking,Hunt a Mizutsune,Guild,0,HR,0,0,7,4,50,1500,14400,760,Wound Mizutsune's head & top fin,2400,80
+10734,The Peril of the Land,Hunt a Duramboros,Guild,0,HR,0,0,7,4,50,1600,15300,730,Wound Duramboros's horn & hump,2400,70
+10735,The Wolf and the Footbath,Hunt a Zinogre,Guild,0,HR,0,0,7,6,50,1400,13800,710,Wound Zinogre's head & back,2400,70
+10736,The Thieving Gypceros,Hunt 3 Gypceros,Guild,0,HR,4,0,7,7,50,1700,16800,830,Deliver 1 Large Wyvern Tear,2700,80
+10737,Steam and Smoke,Hunt a Brachydios,Guild,0,HR,0,0,7,8,50,1600,15300,890,Wound Brachy's head & front legs,2400,90
+10738,The Glowing Embers,Hunt an Agnaktor,Guild,0,HR,0,0,7,8,50,1400,13800,730,Wound Agnaktor's back & leg,2400,70
+10739,Primal Forest Defense,"Hunt all large monsters, not including Seltas",Guild,0,HR,5,0,7,13,50,2100,20100,1170,Mount and topple monster 5 times,2400,120
+10740,The End of the Trials,Hunt all large monsters,Guild,0,HR,5,0,7,5,50,2200,21300,1130,Mount and topple monster 4 times,2400,110
+10741,The Descending Fog,Hunt all large monsters,Guild,0,HR,5,0,7,102,50,1800,17400,1020,Deliver 2 Large Wyvern Tears,5100,100
+10742,Searching for Secret Baths,Hunt all large monsters,Guild,0,HR,5,0,7,104,50,2600,25200,1300,Wound Zinogre's head & front legs,2400,130
+10743,Show Me Your Shaka-Strength,Hunt all large monsters,Guild,0,HR,5,0,7,6,50,2800,27300,1490,Mount and topple monster 5 times,2400,150
+10744,The Marshlands Nightmare,Hunt all large monsters,Guild,0,HR,5,0,7,7,50,2200,21900,1290,Mount and topple monster 5 times,2400,130
+10745,The Birds of Prey,Hunt all large monsters,Guild,0,HR,5,0,7,9,50,1800,17100,990,Mount and topple monster 5 times,2400,100
+10746,The Fanged Beasts,Hunt all large monsters,Guild,0,HR,5,0,7,9,50,2100,20700,1200,Mount and topple monster 5 times,2400,120
+10747,The Winged Wyverns,Hunt all large monsters,Guild,0,HR,5,0,7,9,50,3000,29700,1650,Mount and topple monster 5 times,2400,170
+10748,The Foes of the Deep,Hunt all large monsters,Guild,0,HR,5,0,7,15,50,3100,30600,1750,Mount and topple monster 5 times,2400,180
+10749,The Beasts of Brawn,Hunt all large monsters,Guild,0,HR,5,0,7,9,50,4000,39600,2080,Mount and topple monster 5 times,2400,210
+10750,Ring of the Silver Sol,Hunt a Silver Rathalos,Guild,0,HR,0,0,7,2,50,1900,18900,920,Wound Silver Rathalos's head,2100,90
+10751,Ring of the Golden Lune,Hunt a Gold Rathian,Guild,0,HR,0,0,7,4,50,1900,18900,920,Wound Gold Rathian's head,2100,90
+10752,Usurpers of the Throne,Hunt a Silver Rathalos and a Gold Rathian,Guild,0,HR,0,0,7,1,50,2700,26700,1470,Deliver 1 Large Wyvern Tear,2700,150
+10753,Child of Destruction,Hunt a Rajang,Guild,0,HR,0,0,7,8,50,1800,18000,900,Break Rajang's horns,2100,90
+10754,A Shock in the Dark,Hunt 2 Rajang,Guild,0,HR,0,0,7,101,50,2600,25200,1440,None,0,0
+10755,Triumphant Rage,Hunt a Deviljho,Guild,0,HR,0,0,7,5,50,1800,18000,900,None,0,0
+10756,The Frozen Dictator,Slay a Kushala Daora or repel it,Guild,0,HR,1,0,7,103,35,1800,18000,1000,Sever Kushala Daora's tail,2100,100
+10757,Kushala Daora Strikes,Slay a Kushala Daora or repel it,Guild,0,HR,1,0,7,14,35,1800,18000,1000,Wound Kushala Daora's wing,2100,100
+10758,The Elder Dragon of Mist,Slay a Chameleos or repel it,Guild,0,HR,1,0,7,2,35,1800,18000,1000,Break Chameleos's horn,2100,100
+10759,Beyond the Silence,Slay a Chameleos or repel it,Guild,0,HR,1,0,7,7,35,1800,18000,1000,Sever Chameleos's tail,2100,100
+10760,Emperor of Flame,Slay a Teostra or repel it,Guild,0,HR,1,0,7,8,35,1800,18000,1000,Sever Teostra's tail,2100,100
+10761,The Fires of Devastation,Slay a Teostra or repel it,Guild,0,HR,1,0,7,12,35,1800,18000,1000,Wound Teostra's head,2100,100
+10762,Grim Tidings,Slay an Akantor,Guild,0,HR,1,0,7,19,50,2000,19200,1000,Wound Akantor's back,2100,100
+10763,Absolute Zero,Slay an Ukanlos,Guild,0,HR,1,0,7,20,50,2000,19200,1000,Wound Ukanlos's back,2100,100
+10764,The Looming Calamity,Slay an Amatsu,Guild,0,HR,1,0,7,18,50,2000,19200,1000,Wound Amatsu's head,2100,100
+10765,The Brilliant Darkness,Slay an Alatreon,Guild,0,HR,1,0,7,19,50,2100,21000,1500,Break Alatreon's horns,2100,150
+20001,Grudge Match: Malfestio,Slay a Malfestio,Arena,0,LR,1,0,2,9,50,0,900,0,None,0,0
+20002,Grudge Match: Khezu,Slay a Khezu,Arena,0,LR,1,0,2,9,50,0,900,0,None,0,0
+20003,Grudge Match: Najarala,Slay a Najarala,Arena,0,LR,1,0,2,9,50,0,900,0,None,0,0
+20004,Grudge Match: Rathalos,Slay a Rathalos,Arena,0,LR,1,0,3,9,50,0,900,0,None,0,0
+20005,Grudge Match: Kecha Wacha,Slay a Kecha Wacha,Arena,0,HR,1,0,4,10,50,0,1800,0,None,0,0
+20006,Grudge Match: Plesioth,Slay a Plesioth,Arena,0,HR,1,0,5,15,50,0,1800,0,None,0,0
+20007,Grudge Match: Brachydios,Slay a Brachydios,Arena,0,HR,1,0,7,9,50,0,2700,0,None,0,0
+30101,Hunter Training: The Basics,Deliver 1 Well-done Steak,Village,0,LR,3,0,0,1,50,0,150,0,None,0,0
+30102,Hunter Training: Combining,Deliver 1 Mega Potion,Village,0,LR,3,0,0,1,50,0,150,0,None,0,0
+30103,Hunter Training: Mining,Deliver 1 Iron Ore,Village,0,LR,3,0,0,1,50,0,150,0,None,0,0
+30104,Hunter Training: Fishing,Deliver 1 Glutton Tuna,Village,0,LR,3,0,0,1,50,0,150,0,Deliver 1 Sushifish,50,0
+30105,Hunter Training: Transporting,Deliver 1 Carnivore Egg,Village,0,LR,3,0,0,1,50,0,150,0,None,0,0
+30106,Hunter Training: Slaying,Hunt a Great Maccao,Village,0,LR,0,0,0,1,50,0,150,0,None,0,0
+30107,Hunter Training: Capturing,Hunt a Great Maccao,Village,0,LR,0,0,0,1,50,0,150,0,None,0,0
+30201,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30202,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30203,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30204,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30205,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30206,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30207,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30208,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30209,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30210,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30211,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30212,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30213,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30214,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30215,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30216,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30217,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30218,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30219,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30220,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30221,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30222,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30223,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30224,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30225,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30226,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30227,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30228,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30229,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30230,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30231,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30232,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30233,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30234,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30235,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30236,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30237,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30238,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30239,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30240,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30241,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30242,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30243,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30244,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30245,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30246,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30247,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30248,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30249,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30250,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30251,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30252,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30253,Guild Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30254,Striker Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30255,Aerial Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+30256,Adept Style Training,Hunt a Great Maccao,Village,0,LR,0,0,0,9,50,0,150,0,None,0,0
+40101,Redhelm I: Hunt,Hunt a Redhelm Arzuros,Permit,0,LR,0,0,1,6,50,600,5100,300,None,0,0
+40102,Redhelm II: Capture,Capture a Redhelm Arzuros,Permit,0,LR,2,0,2,4,50,600,6000,360,Hunt an Arzuros,2100,130
+40103,Redhelm III: Hunt,Hunt 2 Redhelm Arzuros,Permit,0,LR,4,0,3,6,50,800,7200,420,None,0,0
+40104,Redhelm IV: Hunt,Hunt a Redhelm Arzuros,Permit,0,HR,0,0,4,104,50,1100,10200,600,Hunt a Royal Ludroth,6000,350
+40105,Redhelm V: Hunt,Hunt a Redhelm Arzuros and a Malfestio,Permit,0,HR,0,0,5,6,50,1200,12000,720,Wound Malfestio's head & tail,1200,70
+40106,Redhelm VI: Hunt,Hunt 2 before time expires or deliver a Paw Pass Ticket,Permit,0,HR,4,0,6,4,50,1500,14100,840,None,0,0
+40107,Redhelm VII: Capture,Capture a Redhelm Arzuros,Permit,0,HR,2,0,7,6,50,1700,16200,960,Hunt a Plesioth,7500,430
+40108,Redhelm VIII: Hunt,Hunt a Redhelm Arzuros,Permit,0,HR,0,0,8,17,50,1800,18000,1080,Hunt a Zinogre,11400,590
+40109,Redhelm IX: Hunt,Hunt a Redhelm Arzuros and a Deviljho,Permit,0,HR,0,0,9,6,50,2100,20100,1200,Sever Deviljho's tail,2400,120
+40110,Redhelm X: Hunt,Hunt all large monsters,Permit,0,HR,5,0,10,17,50,2300,22200,1320,None,0,0
+40201,Snowbaron I: Hunt,Hunt a Snowbaron Lagombi,Permit,0,LR,0,0,1,3,50,600,5400,330,None,0,0
+40202,Snowbaron II: Capture,Capture a Snowbaron Lagombi,Permit,0,LR,2,0,2,3,50,700,6600,390,Hunt a Lagombi,3000,140
+40203,Snowbaron III: Hunt,Hunt 2 Snowbaron Lagombi,Permit,0,LR,4,0,3,103,50,800,7500,460,None,0,0
+40204,Snowbaron IV: Hunt,Hunt a Snowbaron Lagombi,Permit,0,HR,0,0,4,14,50,1100,10800,650,Hunt a Zamtrios,6900,400
+40205,Snowbaron V: Hunt,Hunt a Snowbaron Lagombi and a Bulldrome,Permit,0,HR,0,0,5,3,50,1300,12900,780,Deliver 1 Large Beast Tear,1800,80
+40206,Snowbaron VI: Hunt,Hunt 2 before time expires or deliver a Paw Pass Ticket,Permit,0,HR,4,0,6,14,50,1500,15000,910,None,0,0
+40207,Snowbaron VII: Capture,Capture a Snowbaron Lagombi,Permit,0,HR,2,0,7,14,50,1800,17100,1040,Hunt a Khezu,6300,430
+40208,Snowbaron VIII: Hunt,Hunt a Snowbaron Lagombi and a Blangonga,Permit,0,HR,0,0,8,3,50,2000,19200,1170,Wound Blangonga's fangs & tail,1800,120
+40209,Snowbaron IX: Hunt,Hunt a Snowbaron Lagombi and a Tigrex,Permit,0,HR,0,0,9,3,50,2200,21300,1300,Wound Tigrex's head & tail,2400,130
+40210,Snowbaron X: Hunt,Hunt a Snowbaron Lagombi and a Gammoth,Permit,0,HR,0,0,10,20,50,2400,23400,1430,Wound Gammoth's head & legs,2400,140
+40301,Stonefist I: Hunt,Hunt a Stonefist Hermitaur,Permit,0,LR,0,0,1,6,50,600,5700,350,None,0,0
+40302,Stonefist II: Capture,Capture a Stonefist Hermitaur,Permit,0,LR,2,0,2,5,50,700,6900,420,Hunt a Gendrome,2100,130
+40303,Stonefist III: Hunt,Hunt 2 Stonefist Hermitaurs,Permit,0,LR,4,0,3,6,50,900,8100,490,None,0,0
+40304,Stonefist IV: Hunt,Hunt a Stonefist Hermitaur,Permit,0,HR,0,0,4,5,50,1200,11400,700,Hunt a Cephadrome,3900,200
+40305,Stonefist V: Hunt,Hunt a Stonefist Hermitaur and a Daimyo Hermitaur,Permit,0,HR,0,0,5,6,50,1400,13500,840,Break Daimyo's claws & shell,1200,80
+40306,Stonefist VI: Hunt,Hunt 2 before time expires or deliver a Paw Pass Ticket,Permit,0,HR,4,0,6,5,50,1600,15900,980,None,0,0
+40307,Stonefish VII: Capture,Capture a Stonefist Hermitaur,Permit,0,HR,2,0,7,6,50,1800,18000,1120,Hunt a Lagiacrus,10500,590
+40308,Stonefist VIII: Hunt,Hunt a Stonefist Hermitaur and a Glavenus,Permit,0,HR,0,0,8,5,50,2100,20400,1260,Wound Glavenus's head & back,1800,130
+40309,Stonefist IX: Hunt,Hunt 2 Stonefist Hermitaurs,Permit,0,HR,0,0,9,5,50,2300,22500,1400,None,0,0
+40310,Stonefist X: Hunt,Hunt a Stonefist Hermitaur and a Rajang,Permit,0,HR,0,0,10,17,50,2500,24900,1540,Break Rajang's horns,2400,150
+40401,Dreadqueen I: Hunt,Hunt a Dreadqueen Rathian,Permit,0,LR,0,0,1,7,50,700,6300,400,None,0,0
+40402,Dreadqueen II: Capture,Capture a Dreadqueen Rathian,Permit,0,LR,2,0,2,2,50,800,7500,480,Hunt a Velocidrome,1800,100
+40403,Dreadqueen III: Hunt,Hunt a Dreadqueen Rathian and a Great Maccao,Permit,0,LR,0,0,3,101,50,900,8700,560,Wound G.Maccao's head & tail,900,60
+40404,Dreadqueen IV: Hunt,Hunt a Dreadqueen Rathian,Permit,0,HR,0,0,4,11,50,1300,12600,800,None,0,0
+40405,Dreadqueen V: Hunt,Hunt a Dreadqueen Rathian and a Rathalos,Permit,0,HR,0,0,5,2,50,1500,15000,960,Wound Rathalos's head & tail,1500,100
+40406,Dreadqueen VI: Hunt,Hunt 2 before time expires or deliver a Paw Pass Ticket,Permit,0,HR,4,0,6,5,50,1800,17400,1120,None,0,0
+40407,Dreadqueen VII: Capture,Capture a Dreadqueen Rathian,Permit,0,HR,2,0,7,7,50,2100,20100,1280,Hunt a Shogun Ceanataur,7500,470
+40408,Dreadqueen VIII: Hunt,Hunt a Dreadqueen Rathian and a Bulldrome,Permit,0,HR,0,0,8,17,50,2300,22500,1440,Mount & topple monster 3 times,1500,140
+40409,Dreadqueen IX: Hunt,Hunt 2 Dreadqueen Rathians,Permit,0,HR,4,0,9,104,50,2500,24900,1600,None,0,0
+40410,Dreadqueen X: Hunt,Hunt all large monsters,Permit,0,HR,5,0,10,17,50,2800,27300,1760,Wound Rathian's head & tail,2400,180
+40501,Drilltusk I: Hunt,Hunt a Drilltusk Tetsucabra,Permit,0,HR,0,0,1,6,50,1200,12000,750,None,0,0
+40502,Drilltusk II: Capture,Capture a Drilltusk Tetsucabra,Permit,0,HR,2,0,2,12,50,1400,13200,830,None,0,0
+40503,Drilltusk III: Hunt,Hunt 2 Drilltusk Tetsucabras,Permit,0,HR,4,0,3,1,50,1500,14400,900,None,0,0
+40504,Drilltusk IV: Hunt,Hunt a Drilltusk Tetsucabra and a Zamtrios,Permit,0,HR,0,0,4,14,50,1600,15600,980,Wound Zamtrios's head & tail,1200,100
+40505,Drilltusk V: Hunt,Hunt a Drilltusk Tetsucabra,Permit,0,HR,0,0,5,12,50,1800,17700,1130,Hunt a Tetsucabra,6000,350
+40506,Drilltusk VI: Hunt,Hunt 2 before time expires or deliver a Paw Pass Ticket,Permit,0,HR,4,0,6,6,50,1900,18900,1200,None,0,0
+40507,Drilltusk VII: Capture,Capture a Drilltusk Tetsucabra,Permit,0,HR,2,0,7,1,50,2100,20100,1280,Hunt a Malfestio,6900,400
+40508,Drilltusk VIII: Hunt,Hunt a Drilltusk Tetsucabra and a Gammoth,Permit,0,HR,0,0,8,20,50,2200,21300,1350,Wound Gammoth's head & trunk,1800,140
+40509,Drilltusk IX: Hunt,Hunt a Drilltusk Tetsucabra and a Brachydios,Permit,0,HR,0,0,9,12,50,2400,23700,1500,Wound Brachydios's head & tail,2400,150
+40510,Drilltusk X: Hunt,Hunt 2 Drilltusk Tetsucabras,Permit,0,HR,0,0,10,19,50,2700,26100,1650,None,0,0
+40601,Silverwind I: Hunt,Hunt a Silverwind Nargacuga,Permit,0,HR,0,0,1,4,50,1400,13200,850,None,0,0
+40602,Silverwind II: Capture,Capture a Silverwind Nargacuga,Permit,0,HR,2,0,2,1,50,1500,14400,940,Hunt a Gypceros,5100,330
+40603,Silverwind III: Hunt,Hunt 2 Silverwind Nargacugas,Permit,0,HR,4,0,3,6,50,1600,15600,1020,None,0,0
+40604,Silverwind IV: Hunt,Hunt a Silverwind Nargacuga and a Nargacuga,Permit,0,HR,0,0,4,104,50,1800,17100,1110,Wound Nargacuga's head & tail,1500,110
+40605,Silverwind V: Hunt,Hunt a Silverwind Nargacuga,Permit,0,HR,0,0,5,101,50,2000,19500,1280,Hunt a Volvidon,5100,240
+40606,Silverwind VI: Hunt,Hunt 2 before time expires or deliver a Paw Pass Ticket,Permit,0,HR,4,0,6,6,50,2100,21000,1360,None,0,0
+40607,Silverwind VII: Capture,Capture a Silverwind Nargacuga,Permit,0,HR,2,0,7,1,50,2300,22200,1450,None,0,0
+40608,Silverwind VIII: Hunt,Hunt a Silverwind Nargacuga and a Mizutsune,Permit,0,HR,0,0,8,4,50,2400,23400,1530,Wound Mizutsune's head & top fin,2100,150
+40609,Silverwind IX: Hunt,Hunt a Silverwind Nargacuga and a Duramboros,Permit,0,HR,0,0,9,104,50,2700,26100,1700,Wound Duramboros's horn & hump,2400,170
+40610,Silverwind X: Hunt,Hunt 2 Silverwind Nargacugas,Permit,0,HR,0,0,10,17,50,2900,28800,1870,None,0,0
+40701,Crystalbeard I: Hunt,Hunt a Crystalbeard Uragaan,Permit,0,HR,0,0,1,8,50,1400,13800,900,None,0,0
+40702,Crystalbeard II: Capture,Capture a Crystalbeard Uragaan,Permit,0,HR,2,0,2,12,50,1500,15000,990,Hunt an Iodrome,4200,220
+40703,Crystalbeard III: Hunt,Hunt 2 Crystalbeard Uragaan,Permit,0,HR,4,0,3,8,50,1700,16500,1080,None,0,0
+40704,Crystalbeard IV: Hunt,Hunt a Crystalbeard Uragaan and an Uragaan,Permit,0,HR,0,0,4,12,50,1800,17700,1170,Wound Uragaan's jaw & tail,1500,120
+40705,Crystalbeard V: Hunt,Hunt a Crystalbeard Uragaan,Permit,0,HR,0,0,5,12,50,2100,20400,1350,Hunt a Rathalos,10500,590
+40706,Crystalbeard VI: Hunt,Hunt 2 before time expires or deliver a Paw Pass Ticket,Permit,0,HR,4,0,6,8,50,2200,21900,1440,None,0,0
+40707,Crystalbeard VII: Capture,Capture a Crystalbeard Uragaan,Permit,0,HR,2,0,7,12,50,2400,23400,1530,Hunt an Agnaktor,11400,610
+40708,Crystalbeard VIII: Hunt,Hunt a Crystalbeard Uragaan and a Glavenus,Permit,0,HR,0,0,8,8,50,2500,24600,1620,Wound Glavenus's head & front legs,2100,160
+40709,Crystalbeard IX: Hunt,Hunt a Crystalbeard Uragaan and a Seregios,Permit,0,HR,0,0,9,12,50,2800,27300,1800,Wound Seregios's horn & wings,2400,180
+40710,Crystalbeard X: Hunt,Hunt 2 Crystalbeard Uragaan,Permit,0,HR,0,0,10,19,50,3000,30000,1980,None,0,0
+40801,Deadeye I: Hunt,Hunt a Deadeye Yian Garuga,Permit,0,HR,0,0,1,2,50,1500,14400,950,None,0,0
+40802,Deadeye II: Capture,Capture a Deadeye Yian Garuga,Permit,0,HR,2,0,2,12,50,1600,15900,1050,Hunt a Tetsucabra,6000,350
+40803,Deadeye III: Hunt,Hunt 2 Deadeye Yian Garuga,Permit,0,HR,4,0,3,1,50,1800,17100,1140,None,0,0
+40804,Deadeye IV: Hunt,Hunt a Deadeye Yian Garuga and a Yian Garuga,Permit,0,HR,0,0,4,2,50,1900,18600,1240,Wound Y.Grg's head & wingtalon,1500,120
+40805,Deadeye V: Hunt,Hunt a Deadeye Yian Garuga,Permit,0,HR,0,0,5,101,50,2200,21300,1430,Hunt a Rathian,7500,430
+40806,Deadeye VI: Hunt,Hunt 2 before time expires or deliver a Paw Pass Ticket,Permit,0,HR,4,0,6,12,50,2300,22800,1520,None,0,0
+40807,Deadeye VII: Capture,Capture a Deadeye Yian Garuga,Permit,0,HR,2,0,7,12,50,2500,24300,1620,Hunt an Uragaan,9600,500
+40808,Deadeye VIII: Hunt,Hunt a Deadeye Yian Garuga and an Astalos,Permit,0,HR,0,0,8,2,50,2600,25800,1710,Wound Astalos's crest & wingtalon,2100,170
+40809,Deadeye IX: Hunt,Hunt a Deadeye Yian Garuga and a Nargacuga,Permit,0,HR,0,0,9,101,50,2900,28500,1900,Wound Nargacuga's head & cutwing,2400,190
+40810,Deadeye X: Hunt,Hunt 2 Deadeye Yian Garuga,Permit,0,HR,0,0,10,17,50,3200,31500,2090,None,0,0
+40901,Dreadking I: Hunt,Hunt a Dreadking Rathalos,Permit,0,HR,0,0,1,2,50,1500,15000,1000,None,0,0
+40902,Dreadking II: Capture,Capture a Dreadking Rathalos,Permit,0,HR,2,0,2,11,50,1700,16500,1100,Hunt a Kecha Wacha,5100,330
+40903,Dreadking III: Hunt,Hunt a Dreadking Rathalos and a Rathian,Permit,0,HR,0,0,3,6,50,1800,18000,1200,Wound Rathian's head & tail,1800,120
+40904,Dreadking IV: Hunt,Hunt 2 before time expires or deliver a Paw Pass Ticket,Permit,0,HR,4,0,4,8,50,2000,19500,1300,None,0,0
+40905,Dreadking V: Hunt,Hunt a Dreadking Rathalos,Permit,0,HR,0,0,5,11,50,2300,22200,1500,None,0,0
+40906,Dreadking VI: Hunt,Hunt a Dreadking Rathalos and an Astalos,Permit,0,HR,0,0,6,102,50,2400,23700,1600,Wound Astalos's crest & back,2100,160
+40907,Dreadking VII: Capture,Capture a Dreadking Rathalos,Permit,0,HR,2,0,7,12,50,2600,25200,1700,None,0,0
+40908,Dreadking VIII: Hunt,Hunt a Dreadking Rathalos and a Bulldrome,Permit,0,HR,0,0,8,17,50,2700,26700,1800,Mount & topple monster 3 times,2100,180
+40909,Dreadking IX: Hunt,Hunt 2 Dreadking Rathalos,Permit,0,HR,4,0,9,1,50,3000,29700,2000,None,0,0
+40910,Dreadking X: Hunt,Hunt a Dreadking Rathalos and a Dreadqueen Rathian,Permit,0,HR,0,0,10,17,50,3300,32700,2200,Wound Dreadqueen's head & tail,2400,220
+41001,Thunderlord I: Hunt,Hunt a Thunderlord Zinogre,Permit,0,HR,0,0,1,4,50,1600,15600,1050,None,0,0
+41002,Thunderlord II: Capture,Capture a Thunderlord Zinogre,Permit,0,HR,2,0,2,14,50,1800,17100,1160,None,0,0
+41003,Thunderlord III: Hunt,Hunt a Thunderlord Zinogre,Permit,0,HR,0,0,3,104,50,1900,18600,1260,Hunt a Bulldrome,3000,160
+41004,Thunderlord IV: Hunt,Hunt 2 Thunderlord Zinogres,Permit,0,HR,4,0,4,101,50,2100,20100,1370,None,0,0
+41005,Thunderlord V: Hunt,Hunt a Thunderlord Zinogre,Permit,0,HR,0,0,5,4,50,2400,23100,1580,None,0,0
+41006,Thunderlord VI: Hunt,Hunt a Thunderlord Zinogre and a Gendrome,Permit,0,HR,0,0,6,17,50,2500,24900,1680,Wound Gendrome's head,2100,170
+41007,Thunderlord VII: Hunt,Hunt 2 before time expires or deliver a Paw Pass Ticket,Permit,0,HR,4,0,7,1,50,2700,26400,1790,None,0,0
+41008,Thunderlord VIII: Capture,Capture a Thunderlord Zinogre,Permit,0,HR,2,0,8,14,50,2800,27900,1890,None,0,0
+41009,Thunderlord IX: Hunt,Hunt 2 Thunderlord Zinogres,Permit,0,HR,4,0,9,16,50,3100,30900,2100,None,0,0
+41010,Thunderlord X: Hunt,Hunt a Thunderlord Zinogre and a Bulldrome,Permit,0,HR,0,0,10,17,50,3400,33900,2310,Mount & topple monster 3 times,2400,230
+41101,Grimclaw I: Hunt,Hunt a Grimclaw Tigrex,Permit,0,HR,0,0,1,3,50,1700,16200,1100,None,0,0
+41102,Grimclaw II: Capture,Capture a Grimclaw Tigrex,Permit,0,HR,2,0,2,13,50,1800,17700,1210,Hunt a Velocidrome,2700,140
+41103,Grimclaw III: Hunt,Hunt a Grimclaw Tigrex and a Gendrome,Permit,0,HR,0,0,3,17,50,2000,19200,1320,Wound Gendrome's head,1800,130
+41104,Grimclaw IV: Hunt,Hunt 2 Grimclaw Tigrex,Permit,0,HR,4,0,4,5,50,2100,21000,1430,None,0,0
+41105,Grimclaw V: Hunt,Hunt a Grimclaw Tigrex,Permit,0,HR,0,0,5,13,50,2400,24000,1650,Hunt an Iodrome,4200,220
+41106,Grimclaw VI: Hunt,Hunt 2 before time expires or deliver a Paw Pass Ticket,Permit,0,HR,4,0,6,3,50,2600,25800,1760,None,0,0
+41107,Grimclaw VII: Hunt,Hunt a Grimclaw Tigrex and a Bulldrome,Permit,0,HR,0,0,7,20,50,2800,27300,1870,Mount & topple monster 3 times,2100,190
+41108,Grimclaw VIII: Capture,Capture a Grimclaw Tigrex,Permit,0,HR,2,0,8,5,50,2900,28800,1980,None,0,0
+41109,Grimclaw IX: Hunt,Hunt 2 Grimclaw Tigrex,Permit,0,HR,4,0,9,5,50,3300,32100,2200,None,0,0
+41110,Grimclaw X: Hunt,Hunt a Grimclaw Tigrex and a Tigrex,Permit,0,HR,0,0,10,20,50,3600,35400,2420,Wound Tigrex's head & claw,2400,240
+41201,Hellblade I: Hunt,Hunt a Hellblade Glavenus,Permit,0,HR,0,0,1,1,50,1700,16800,1150,None,0,0
+41202,Hellblade II: Capture,Capture a Hellblade Glavenus,Permit,0,HR,2,0,2,5,50,1900,18300,1270,Hunt a Gendrome,3000,180
+41203,Hellblade III: Hunt,Hunt a Hellblade Glavenus and an Iodrome,Permit,0,HR,0,0,3,19,50,2100,20100,1380,Wound Iodrome's head,1800,140
+41204,Hellblade IV: Hunt,Hunt 2 Hellblade Glavenus,Permit,0,HR,4,0,4,12,50,2200,21600,1500,None,0,0
+41205,Hellblade V: Hunt,Hunt a Hellblade Glavenus,Permit,0,HR,0,0,5,8,50,2500,24900,1730,None,0,0
+41206,Hellblade VI: Hunt,Hunt 2 before time expires or deliver a Paw Pass Ticket,Permit,0,HR,4,0,6,5,50,2700,26700,1840,None,0,0
+41207,Hellblade VII: Hunt,Hunt a Hellblade Glavenus and a Bulldrome,Permit,0,HR,0,0,7,17,50,2900,28500,1960,Mount & topple monster 3 times,2100,200
+41208,Hellblade VIII: Capture,Capture a Hellblade Glavenus,Permit,0,HR,2,0,8,12,50,3000,30000,2070,None,0,0
+41209,Hellblade IX: Hunt,Hunt 2 Hellblade Glavenus,Permit,0,HR,4,0,9,101,50,3400,33300,2300,None,0,0
+41210,Hellblade X: Hunt,Hunt a Hellblade Glavenus and a Glavenus,Permit,0,HR,0,0,10,19,50,3700,36600,2530,Wound Glavenus's head & tail,2400,250
+100201,Prowler's First Errand,Deliver 5 Unique Ferns,Village,0,LR,3,1,2,1,50,100,600,40,None,0,0
+100202,Jurassic Fungologist,Deliver 8 Abyssal Mushrooms,Village,0,LR,3,1,2,1,50,200,1200,40,None,0,0
+100203,Lucky Frontier Cat,Earn 500 Wycademy Points,Village,0,LR,3,1,2,101,50,100,900,50,None,0,0
+100301,Verdant Hills Bully,Slay 8 Melynxes,Village,0,LR,1,1,3,2,50,100,600,80,None,0,0
+100302,Lucky Hills Cat,Earn 800 Wycademy Points,Village,0,LR,3,1,3,102,50,200,1500,100,None,0,0
+100303,The Mining Drag,Deliver 8 Balmstone Pieces,Village,0,LR,3,1,3,4,50,200,1500,80,None,0,0
+100304,Felyne Fishing Weekly,Deliver 3 Premium Sashimi,Village,0,LR,3,1,3,2,50,100,900,90,None,0,0
+100305,Grooming the Moofahs,Deliver 5 pieces of Moofah Fur,Village,0,LR,3,1,3,6,50,200,1200,90,None,0,0
+100306,Bug Reports,Slay a total of 10 Vespoid or Hornetaur,Village,0,LR,1,1,3,7,50,100,600,80,None,0,0
+100401,Great Maccao Headbreaker,Wound Great Maccao's head,Village,0,LR,0,1,4,1,50,100,900,60,None,0,0
+100402,Dash It All,Slay 10 Bullfango,Village,0,LR,1,1,4,102,50,200,1200,120,None,0,0
+100403,An Offer You Can't Refuse,Deliver 3 Gargwa Eggs,Village,0,LR,3,1,4,4,50,200,1500,130,None,0,0
+100404,The Secret Ingredient,Deliver 4 Carapaceon Brains,Village,0,LR,3,1,4,8,50,200,1200,120,None,0,0
+100405,Marshlands Fishing?,Deliver 3 Goldenfish,Village,0,LR,3,1,4,7,50,200,1500,120,None,0,0
+100406,Arctic Point Expedition,Earn 1000 Wycademy Points,Village,0,LR,3,1,4,103,50,200,1800,150,None,0,0
+100501,Blood Red Marshlands,Slay 10 Ioprey,Village,0,LR,1,1,5,7,50,100,900,160,None,0,0
+100502,An Offer You Can't Relieve,Deliver a Wyvern Egg,Village,0,LR,3,1,5,102,50,200,1200,170,None,0,0
+100503,Uroktor Hide 'n Seek,Slay 10 Uroktor,Village,0,LR,1,1,5,8,50,300,2100,160,None,0,0
+100504,Into the Volcano,Slay 8 Remobras,Village,0,LR,1,1,5,8,50,300,2400,160,None,0,0
+100505,Kut-Ku Earbreaker,Wound Yian Kut-Ku's head,Village,0,LR,0,1,5,101,50,200,1500,120,None,0,0
+100601,The Right Cattitude,Hunt an Arzuros,Village,0,LR,0,1,6,4,50,200,1800,210,None,0,0
+100602,D. Hermitaur Shellbreaker,Break Daimyo's shell,Village,0,LR,0,1,6,5,50,200,1800,150,None,0,0
+100603,Surrounded by Blue and Green,Hunt all large monsters,Village,0,LR,5,1,6,9,50,300,2100,230,None,0,0
+100604,Poison and Fangs,Hunt a Bulldrome and an Iodrome,Village,0,LR,0,1,6,7,50,300,3000,260,None,0,0
+110101,Dance: The Final Frontier,Slay 15 Maccao,Guild,0,LR,1,1,1,1,50,200,1200,90,None,0,0
+110102,Taste the Mountains,Deliver 10 Mountain Herbs,Guild,0,LR,3,1,1,3,50,100,900,90,None,0,0
+110103,Lucky Mountain Cat,Earn 1500 Wycademy Points,Guild,0,LR,3,1,1,104,50,200,1800,120,None,0,0
+110201,Running with the Night,Slay 15 Rhenoplos,Guild,0,LR,1,1,2,101,50,200,1500,120,None,0,0
+110202,A Cricket to Love,Deliver 5 Silver Crickets,Guild,0,LR,3,1,2,6,50,200,1200,120,None,0,0
+110203,A Resplendent Dance,Hunt a Great Maccao,Guild,0,LR,0,1,2,1,50,300,2100,160,None,0,0
+110301,Hot Scales & Sharp Pincers,Slay a total of 15 Ceanataurs or Uroktor,Guild,0,LR,1,1,3,8,50,300,3000,200,None,0,0
+110302,There's Always Room for Fish,Deliver 4 Goldenfish,Guild,0,LR,3,1,3,7,50,300,3000,220,None,0,0
+110303,Out of the Frying Pan,Hunt all large monsters,Guild,0,LR,5,1,3,9,50,400,3600,250,None,0,0
+110401,The Grandmeowster's Trials,Slay 15 Konchu,Guild,0,HR,1,1,4,11,50,200,1500,120,None,0,0
+110402,We Cat All Be Heroes,Hunt a Seltas,Guild,0,HR,0,1,4,11,50,300,3000,200,None,0,0
+110403,Fois Gras Faux Pas,Deliver 12 Piscine Livers,Guild,0,HR,3,1,4,5,50,400,3600,150,None,0,0
+110404,Splash in the Moonlight,Slay 15 Ludroth,Guild,0,HR,1,1,4,4,50,400,3600,120,None,0,0
+110501,"Calm, Cool, and Collected",Slay 15 Zamite,Guild,0,HR,1,1,5,14,50,500,4500,180,None,0,0
+110502,Kecha Wacha Earbreaker,Wound Kecha Wacha's ears,Guild,0,HR,0,1,5,11,50,300,2400,200,None,0,0
+110503,Fish On!,Deliver 3 Silverfish,Guild,0,HR,3,1,5,6,50,500,4500,200,None,0,0
+110504,Lucky Volcano Cat,Earn 1800 Wycademy Points,Guild,0,HR,3,1,5,12,50,400,3900,250,None,0,0
+110505,Under the Blazing Sun,Hunt a Gendrome,Guild,0,HR,0,1,5,5,50,400,3600,230,None,0,0
+110601,Everywhere You Look,Hunt 2 Iodrome,Guild,0,HR,0,1,6,13,50,600,6000,350,None,0,0
+110602,Malfestio Headbreaker,Wound Malfestio's head,Guild,0,HR,0,1,6,6,50,300,3000,240,None,0,0
+110603,The Snow Must Go On,Hunt a Lagombi,Guild,0,HR,0,1,6,14,50,500,4500,380,None,0,0
+110604,Big Bro's Benevolence,Deliver 2 Meteor Chunks,Guild,0,HR,3,1,6,5,50,400,3900,300,None,0,0
+110701,The Ball's in Your Court,Hunt a Volvidon,Guild,0,HR,0,1,7,101,50,600,5400,420,None,0,0
+110702,Uragaan Shellbreaker,Wound Uragaan's jaw,Guild,0,HR,0,1,7,12,50,400,3600,300,None,0,0
+110703,"Poison, Poison, Go Away",Slay 20 Remobras,Guild,0,HR,1,1,7,14,50,500,4200,300,None,0,0
+110704,Meownster Hunter,Hunt all large monsters,Guild,0,HR,5,1,7,9,50,800,7200,500,None,0,0
+120001,Grudge Match: Great Maccao,Slay a Great Maccao,Arena,0,LR,1,1,2,9,50,0,900,0,None,0,0
+120002,Grudge Match: Gypceros,Slay a Gypceros,Arena,0,LR,1,1,3,9,50,0,900,0,None,0,0
+120003,Grudge Match: Bird Wyverns,Slay a Gendrome and an Iodrome,Arena,0,HR,1,1,6,9,50,0,2700,0,None,0,0
+130301,Prowler Training: The Basics,Deliver 1 piece of Raw Meat,Village,0,LR,3,1,0,1,50,0,150,0,None,0,0
+130302,Prowler Training: Combining,Deliver 1 Mega Potion,Village,0,LR,3,1,0,1,50,0,150,0,None,0,0
+130303,Prowler Training: Gathering,Deliver 1 Deodorant,Village,0,LR,3,1,0,1,50,0,150,0,None,0,0
+130304,Prowler Training: Fishing,Deliver 1 Glutton Tuna,Village,0,LR,3,1,0,1,50,0,150,0,Deliver 1 Sushifish,50,0
+130305,Prowler Training: Transporting,Deliver 1 Carnivore Egg,Village,0,LR,3,1,0,1,50,0,150,0,None,0,0
+130306,Prowler Training: Capturing,Hunt a Great Maccao,Village,0,LR,0,1,0,1,50,0,150,0,None,0,0
+130307,Prowler Training: Slaying,Hunt a Great Maccao,Village,0,LR,0,1,0,9,50,0,150,0,None,0,0

@@ -11,6 +11,10 @@ def show_image(request, *args, **kwargs):
     filter_by = kwargs['map_img']
     get_img = Location.objects.filter(map_img=filter_by)
     map_img = get_img[0].map_img.path
-    #import pdb; pdb.set_trace()
 
     return render(request, 'img.html', context={'map_img': map_img})
+
+
+def landing(request):
+    """Show landing page."""
+    return render(request, 'landing.html')

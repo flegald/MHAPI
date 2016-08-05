@@ -15,14 +15,16 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from views import show_image
+from MHAPI.views import show_image
 from django.conf import settings
 from django.conf.urls import patterns
+from .views import landing
 
 
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', landing),
     url(r'^media/(?P<map_img>[\w|\W]+)/$', show_image, name='show_image'),
 
     #API

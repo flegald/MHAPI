@@ -52,12 +52,13 @@ img {
 }
 
 .info {
-  background: #dfdfdf;
+  background: #fff;
   width: 100%;
   text-indent: 20px;
-  padding: 10px;
+  padding: 5px;
   position: relative;
   display: none;
+  margin: 0 11px;
 }
 
 .info section p {
@@ -68,10 +69,42 @@ img {
 .info section p a {
   cursor: pointer;
   text-decoration: underline;
+  border: 1px solid #efefef;
+  padding: 2px 16px;
+  background: #f5f5f5;
 }
-/*
+
+.info section p span {
+  border: 1px solid #efefef;
+  padding: 2px 4px;
+  background: #f5f5f5;
+}
+
+#about {
+  width: 100%;
+  text-align: center;
+}
+#about h1, #about h2 {
+  margin: 0;
+}
+
+footer {
+  background: #e4e4e4;
+  text-align: right;
+  padding: 1px 20px;
+  margin: 20px 0 0 0;
+}
+
 @media (min-width: 800px) {
-  .panel {
-    width: 320px;
+  #wrapper {
+    width: 780px;
+    margin: 0 0 0 auto;
   }
-}*/
+  #about {
+    display: block !important;
+    width: 230px;
+    float: left;
+    padding: 10px 20px;
+    text-align: left;
+  }
+}

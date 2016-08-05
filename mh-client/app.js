@@ -38,6 +38,20 @@ $('#anchor').on('click', '.panel', function() {
 
 $('#anchor').on('click', '.info', function() {
   $(this).toggleClass('open');
+
 });
+
+
+// $('.copyButton').on('click', function() {
+//   console.log('fuck');
+//   var thisLink = $(this).prev('input');
+//   copyToClipboard(thisLink);
+// });
+
+// function copyToClipboard(elem) {
+//   var succeed;
+//   // elem.setSelectionRange(0, elem.value.length);
+//   succeed = document.execCommand("copy");
+// }
 
 });

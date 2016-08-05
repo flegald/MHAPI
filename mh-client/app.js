@@ -9,19 +9,34 @@ $.get('templates/panel.handlebars', function(data) {
 });
 
 $('#anchor').on('click', '.panel', function() {
-  $('h3').removeClass('highlight');
-  $(this).find('h3').addClass('highlight');
+  $(this).find('h3').toggleClass('highlight');
 
-  $('.info').remove();
-  $(this).after('<section class="info"></section>')
+  if (!$(this).next().is('.info')) {
+    $(this).next('.info').remove();
+    $(this).after('<section class="info"></section>')
+  }
 
-  var thisApi = $(this).attr('id');
-  $('.info').html('<p>This is the ' + thisApi + ' API list</p>');
-  $('.info').addClass('open');
+  var thisApi = $(this).attr('id').toLowerCase();
+  var thisEndpoint = endpoints[thisApi];
+  var currentSection = $(this).next('.info');
+
+  if (!currentSection.html()) {
+
+    thisEndpoint.forEach(function(item) {
+      $.get('templates/info.handlebars', function(data) {
+        var compiled = Handlebars.compile(data);
+        var html = compiled(item);
+        currentSection.append(html);
+      });
+    })
+  }
+
+
+    currentSection.slideToggle();
 });
 
+
 $('#anchor').on('click', '.info', function() {
-  console.log('click');
   $(this).toggleClass('open');
 });
 

@@ -3,10 +3,10 @@ from rest_framework.decorators import api_view
 from rest_framework.generics import ListAPIView, RetrieveAPIView
 from rest_framework.response import Response
 
-from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy, MonsterSerializer, MonsterSerializerSingle, QuestListSerializer, QuestSerializerSingle, SkillTreeSerializer, SingleSkillTreeSerializer
+from RESTAPI.serializers import LocationSerializer, WeaponSerializer, WeaponSerializerHeavy, ArmorSerializer, ArmorSerializerHeavy, MonsterSerializer, MonsterSerializerSingle, QuestListSerializer, QuestSerializerSingle, SkillTreeSerializer, SingleSkillTreeSerializer, DecorationListSerializer
 
 from Locations.models import Location
-from Items.models import Weapon, Armor
+from Items.models import Weapon, Armor, Decoration
 from Monsters.models import Monster, Buff
 from Quests.models import Quest
 from Skills.models import SkillTree, Skill
@@ -259,3 +259,16 @@ class SingleSkillTreeView(RetrieveAPIView):
         filter_by = kwargs['name']
         self.queryset = self.queryset.filter(name=filter_by)
         return super(SingleSkillTreeView, self).get(request, *args, **kwargs)
+
+
+# Decorations
+
+class DecorationListView(ListAPIView):
+    """Display all decorations."""
+
+    queryset = Decoration.objects.all()
+    serializer_class = DecorationListSerializer
+
+    def list(self, request, *args, **kwargs):
+        """Return List."""
+        return super(DecorationListView, self).list(request, *args, **kwargs)

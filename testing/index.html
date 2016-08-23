@@ -3,12 +3,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <script>
-$.getJSON("http://localhost:8000/api/quests/Village/Wrath of the Rathian",
+$.getJSON("https://serene-cove-88415.herokuapp.com/api/monsters/Rathian/",
 {
 format: "json"
 },
 function(data) {
-	console.log(data)
+	$('#name').text(data.name)
 
 
 	
@@ -24,7 +24,7 @@ function(data) {
 <h3 id='desc'></h3>
 <h2 id='type'></h2>
 <ul>
-<li id='1'></li>
+<li id='1'poop></li>
 <li id='2'></li>
 <li id='3'></li>
 <li id='4'></li>

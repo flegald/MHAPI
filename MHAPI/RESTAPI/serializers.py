@@ -1,7 +1,7 @@
 """Serializers for MHAPI."""
 from rest_framework import serializers
 from Locations.models import Location
-from Items.models import Weapon, Armor
+from Items.models import Weapon, Armor, Decoration
 from Monsters.models import Monster, Buff, Damage, Habitat, Weakness
 from Quests.models import Quest
 from Skills.models import SkillTree, Skill
@@ -195,3 +195,15 @@ class SingleSkillTreeSerializer(serializers.ModelSerializer):
 
         model = SkillTree
         fields = ['key', 'name', 'skills']
+
+
+# Decorations
+
+class DecorationListSerializer(serializers.ModelSerializer):
+    """Decorations Serializer."""
+
+    class Meta:
+        """Meta."""
+
+        model = Decoration
+        fields = ['name', 'description', "carry_capacity", "rarity", "buy", "sell"]

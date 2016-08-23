@@ -1,6 +1,6 @@
 """Converting CSVs to Django Objects."""
 from Locations.models import Location
-from Items.models import Armor, Item
+from Items.models import Armor, Item, Decoration
 from Monsters.models import Monster, Buff, Damage, Habitat, Weakness
 from Quests.models import Quest
 from Skills.models import SkillTree, Skill
@@ -302,3 +302,21 @@ def run_skill_csv():
         data = csv.reader(ifile)
         for row in data:
             skill_save(row)
+
+# Decorations
+
+
+def save_decorations():
+    """Go through all items picking out decorations."""
+    items = Item.objects.all()
+    for i in items:
+        if i.item_type == 'Decoration':
+            to_save = Decoration(name=i.name,
+                                rarity=i.rarity,
+                                carry_capacity=i.carry_capacity,
+                                description=i.description,
+                                buy=i.buy,
+                                sell=i.sell)
+            to_save.save()
+            i.delete()
+

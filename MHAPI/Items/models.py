@@ -67,3 +67,13 @@ class Armor(models.Model):
     hunter_type = models.CharField(max_length=255, null=True, blank=True)
     num_slots = models.CharField(max_length=255, null=True, blank=True)
 
+
+class Decoration(models.Model):
+    """Decoration model Class."""
+
+    name = models.CharField(max_length=255, null=True, blank=True)
+    rarity = models.CharField(max_length=255, null=True, blank=True)
+    carry_capacity = models.CharField(max_length=255, null=True, blank=True)
+    buy = models.CharField(max_length=255, null=True, blank=True)
+    sell = models.CharField(max_length=255, null=True, blank=True)
+    description = models.CharField(max_length=255, null=True, blank=True)

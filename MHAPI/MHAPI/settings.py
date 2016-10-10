@@ -15,7 +15,7 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+STATIC_ROOT = ''
 
 
 STATIC_URL = '/static/'
@@ -36,7 +36,7 @@ MEDIA_URL = '/media/'
 SECRET_KEY = '=$=bnh8^l$y1r-11)1a$50!fwh9xe)zx25t5w-8^2qhb$m5ouw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 

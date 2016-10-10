@@ -19,6 +19,9 @@ from MHAPI.views import show_image
 from django.conf import settings
 from django.conf.urls import patterns
 from .views import landing
+from django.conf.urls.static import static
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
 
 
 
@@ -30,8 +33,3 @@ urlpatterns = [
     #API
     url(r'^api/', include('RESTAPI.urls', namespace='MHGen API'))
 ]
-
-if settings.DEBUG:
-    urlpatterns += patterns('django.views.static',
-        (r'media/(?P<path>.*)', 'serve', {'document_root': settings.MEDIA_ROOT}),
-    )

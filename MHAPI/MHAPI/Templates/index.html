@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Developer | Monster Hunter API</title>
+  <link href="{% static "CSS/styles/main.css" %}" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <script src="{% static "lib/handlebars-v4.0.5.js" %}" charset="utf-8"></script>
+</head>
+<body>
+  <div id="about">
+    <h2>Monster Hunter Generations</h2>
+    <h1>Developer API</h1>
+    <p>*Work in Progress*</p>
+  </div>
+  <div id="wrapper">
+    <div id="anchor"></div>
+  </div>
+  <footer>
+    <p>Created by <a href="https://github.com/flegald">David Flegal</a> and <a href="https://github.com/DonChatelain">Don Chatelain</a></p>
+  </footer>
+  <!--------------------------------------->
+  <script src="{% static "lib/jquery-3.1.0.min.js" %}""></script>
+  <script src="{% static "lib/categories.js" %}"></script>
+  <script src="{% static "lib/endpoints.js" %}"></script>
+  <script src="{% static "JS/app.js" %}"></script>
+</body>
+</html>

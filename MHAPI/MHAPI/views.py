@@ -17,4 +17,4 @@ def show_image(request, *args, **kwargs):
 
 def landing(request):
     """Show landing page."""
-    return render(request, 'landing.html')
+    return render(request, 'index.html')

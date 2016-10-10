@@ -23,7 +23,7 @@ $('#anchor').on('click', '.panel', function() {
   if (!currentSection.html()) {
 
     thisEndpoint.forEach(function(item) {
-      $.get('templates/info.handlebars', function(data) {
+      $.get('static/JS/templates/info.handlebars', function(data) {
         var compiled = Handlebars.compile(data);
         var html = compiled(item);
         currentSection.append(html);
